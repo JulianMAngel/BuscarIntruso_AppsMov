@@ -1,0 +1,508 @@
+button{
+    border-radius: 100px;
+}
+
+/* Primera pantalla */ 
+
+#parent_splash{
+    position: relative;
+    margin: 50px;
+}
+
+
+#fondo_splash{
+    margin:20px;
+    width: 1184.73px;
+    height: 2498.92px;
+    background: lightblue;
+}
+
+#imagen_splash{
+    height: 1249.46px;
+    position: absolute;
+    top: 650px;
+    left:350px;
+    text-align: center;
+}
+
+#primer_texto{
+    font-size: 100px;
+    position: relative;
+    top:500px;
+}
+
+
+
+
+/* Segunda pantalla */ 
+
+
+
+
+
+#parent_inicio{
+    position: relative;
+    margin: 50px;
+}
+
+#fondo_inicio{
+    margin:20px;
+    width: 1184.73px;
+    height: 2498.92px;
+    background: lightblue;
+}
+
+#imagen_inicio{
+    width: 500px;
+    height: 500px;
+    background: green;
+    position: absolute;
+    top: 450px;
+    left:350px;
+    text-align: center;
+}
+
+#texto_imagen_inicio{
+    font-size: 100px;
+    position: relative;
+    top:200px;
+}
+
+#jugar_jugar{
+    width: 500px;
+    height: 200px;
+    background: green;
+    position: absolute;
+    top:1500px;
+    left:350px;
+    text-align: center;
+}
+
+#texto_jugar_jugar{
+    font-size: 100px;
+}
+
+#instrucciones_inicio{
+    width: 730px;
+    height: 200px;
+    background: green;
+    position: absolute;
+    top:1800px;
+    left:230px;
+    text-align: center;
+}
+
+#texto_instrucciones_jugar{
+    font-size: 100px;
+
+}
+
+#creditos_inicio{
+    width: 500px;
+    height: 200px;
+    background: green;
+    position: absolute;
+    top:2100px;
+    left:350px;
+    text-align: center;
+}
+
+#texto_creditos_inicio{
+    font-size: 100px;
+
+}
+
+
+
+
+/* Tercera pantalla */ 
+
+
+
+
+#parent_juego{
+    position: relative;
+    margin: 50px;
+}
+
+#fondo_juego{
+    margin:20px;
+    width: 1184.73px;
+    height: 2498.92px;
+    background: lightblue;
+}
+
+#back_juego{
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: absolute;
+    top:100px;
+    left:100px;
+    text-align: center;
+}
+
+button#back_juego {
+    border-radius: 0px;
+}
+
+
+#texto_back_juego{
+    font-size: 50px;
+}
+
+#puntaje{
+    width: 400px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    top:100px;
+    left:400px;
+    text-align: center;
+}
+
+#texto_puntaje{
+    font-size: 80px;
+
+}
+
+#pausa{
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: absolute;
+    top:100px;
+    left:1020px;
+    text-align: center;
+}
+
+button#pausa {
+    border-radius: 0px;
+}
+
+#texto_pausa{
+    font-size: 50px;
+}
+
+#pregunta{
+    width: 1000px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    top:700px;
+    left:110px;
+    text-align: center;
+}
+
+#texto_pregunta{
+    font-size: 80px;
+}
+
+#primera_imagen{
+    width: 350px;
+    height: 350px;
+    background: green;
+    position: absolute;
+    top:1050px;
+    left:110px;
+    text-align: center;
+}
+
+#texto_primera_pregunta{
+    font-size: 80px;
+    position: relative;
+    top:120px;
+}
+
+#segunda_imagen{
+    width: 350px;
+    height: 350px;
+    background: green;
+    position: absolute;
+    top:1050px;
+    left:760px;
+    text-align: center;
+}
+
+#texto_segunda_pregunta{
+    font-size: 80px;
+    position: relative;
+    top:120px;
+}
+
+#tercera_imagen{
+    width: 350px;
+    height: 350px;
+    background: green;
+    position: absolute;
+    top:1600px;
+    left:110px;
+    text-align: center;
+}
+
+#texto_tercera_pregunta{
+    font-size: 80px;
+    position: relative;
+    top:120px;
+}
+
+#cuarta_imagen{
+    width: 350px;
+    height: 350px;
+    background: green;
+    position: absolute;
+    top:1600px;
+    left:760px;
+    text-align: center;
+}
+
+#texto_cuarta_pregunta{
+    font-size: 80px;
+    position: relative;
+    top:120px;
+}
+
+#cronometro{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:2100px;
+    left:510px;
+    text-align: center;
+}
+
+#texto_cronometro{
+    font-size: 80px;
+    position: relative;
+    top:50px;
+}
+
+
+
+/* Cuarta pantalla */ 
+
+
+
+#parent_instrucciones{
+    position: relative;
+    margin: 50px;
+}
+
+#fondo_instrucciones{
+    margin:20px;
+    width: 1184.73px;
+    height: 2498.92px;
+    background: lightblue;
+}
+
+#back_instrucciones{
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: absolute;
+    top:100px;
+    left:100px;
+    text-align: center;
+}
+
+button#back_instrucciones {
+    border-radius: 0px;
+}
+
+
+#texto_back_instrucciones{
+    font-size: 50px;
+}
+
+
+#instrucciones_instrucciones{
+    width: 600px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    top:350px;
+    left:310px;
+    text-align: center;
+}
+
+#texto_instrucciones{
+    font-size: 80px;
+}
+
+#texto_instrucciones_largo{
+    width: 1000px;
+    height: 1200px;
+    background: white;
+    position: absolute;
+    top:700px;
+    left:110px;
+    text-align: center;
+}
+
+#texto_instrucciones_largo_largo{
+    font-size: 100px;
+    position: relative;
+    top:450px;
+}
+
+#jugar_instrucciones{
+    width: 500px;
+    height: 200px;
+    background: green;
+    position: absolute;
+    top:2050px;
+    left:350px;
+    text-align: center;
+}
+
+#texto_jugar_instrucciones{
+    font-size: 100px;
+}
+
+
+/* Quinta pantalla */ 
+
+
+
+#parent_creditos{
+    position: relative;
+    margin: 50px;
+}
+
+#fondo_creditos{
+    margin:20px;
+    width: 1184.73px;
+    height: 2498.92px;
+    background: lightblue;
+}
+
+#back_creditos{
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: absolute;
+    top:100px;
+    left:100px;
+    text-align: center;
+}
+
+button#back_creditos {
+    border-radius: 0px;
+}
+
+#texto_back_creditos{
+    font-size: 50px;
+}
+
+#primera_persona{
+    width: 350px;
+    height: 350px;
+    background: green;
+    position: absolute;
+    top:600px;
+    left:110px;
+    text-align: center;
+    border-radius:350px;
+}
+
+#texto_primera_persona{
+    font-size: 80px;
+    position: relative;
+    top:120px;
+}
+
+#descripcion_primera{
+    width: 500px;
+    height: 400px;
+    background: white;
+    position: absolute;
+    top: 570px;
+    left: 600px;
+    text-align: center;
+}
+
+#texto_descripcion_primera{
+    font-size: 100px;
+    position: relative;
+    top: 20px;
+}
+
+#segunda_persona{
+    width: 350px;
+    height: 350px;
+    background: green;
+    position: absolute;
+    top:1100px;
+    left:110px;
+    text-align: center;
+    border-radius:350px;
+}
+
+#texto_segunda_persona{
+    font-size: 80px;
+    position: relative;
+    top:120px;
+}
+
+#descripcion_segunda{
+    width: 500px;
+    height: 400px;
+    background: white;
+    position: absolute;
+    top: 1070px;
+    left: 600px;
+    text-align: center;
+}
+
+#texto_descripcion_segunda{
+    font-size: 100px;
+    position: relative;
+    top: 20px;
+}
+
+#tercera_persona{
+    width: 350px;
+    height: 350px;
+    background: green;
+    position: absolute;
+    top:1600px;
+    left:110px;
+    text-align: center;
+    border-radius:350px;
+}
+
+#texto_tercera_persona{
+    font-size: 80px;
+    position: relative;
+    top:120px;
+}
+
+#descripcion_tercera{
+    width: 500px;
+    height: 400px;
+    background: white;
+    position: absolute;
+    top: 1570px;
+    left: 600px;
+    text-align: center;
+}
+
+#texto_descripcion_tercera{
+    font-size: 100px;
+    position: relative;
+    top: 20px;
+}
+
+#jugar_creditos{
+    width: 500px;
+    height: 200px;
+    background: green;
+    position: absolute;
+    top:2100px;
+    left:350px;
+    text-align: center;
+}
+
+#texto_jugar_creditos{
+    font-size: 100px;
+}
