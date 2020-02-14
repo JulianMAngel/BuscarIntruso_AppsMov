@@ -1,2 +1,2 @@
-# JulianMAngel-BuscarIntruso_AppsMov
+# BuscarIntruso_AppsMov
 Proyecto desarrollado para Aplicaciones Móviles 20201
