@@ -8,10 +8,10 @@
 </head>
 <body>
    
-   <!-- Acá comienza la pantalla Splash -->
+      <!-- Acá comienza la pantalla Splash -->
    
    
-    <section id="splash">
+    <section id="seccion_1" class="splash animated fadeIn">
         <div id="parent_splash">
           
            <div id="fondo_splash"></div>
@@ -25,7 +25,7 @@
     
     <!-- Acá comienza la pantalla Inicio -->
     
-    <section id="inicio">
+    <section id="seccion_2" class="inicio oculto">
        <div id="parent_inicio">
           
            <div id="fondo_inicio"></div>
@@ -34,15 +34,15 @@
                 <span id="texto_imagen_inicio">Imagen</span> <!-- Esto será reemplazado por una imagen-->
             </div>
             
-            <button id="jugar_jugar">
+            <button id="jugar_jugar"  onclick="cambiarSeccion(3)">
                 <span id="texto_jugar_jugar">Jugar</span>
             </button>
             
-            <button id="instrucciones_inicio">
+            <button id="instrucciones_inicio" onclick="cambiarSeccion(4)">
                 <span id="texto_instrucciones_jugar">Instrucciones</span>
             </button>
             
-            <button id="creditos_inicio">
+            <button id="creditos_inicio"  onclick="cambiarSeccion(5)">
                 <span id="texto_creditos_inicio">Créditos</span>
             </button>
             
@@ -51,12 +51,12 @@
     
     <!-- Acá comienza la pantalla Juego -->
     
-    <section id="juego">
+    <section id="seccion_3" class="juego oculto animated bounceInLeft">
         <div id="parent_juego">
            
             <div id="fondo_juego"></div>
             
-            <button id="back_juego">
+            <button id="back_juego" onclick="cambiarSeccion(2)">
                 <span id="texto_back_juego">◖</span>
             </button>
             
@@ -98,13 +98,13 @@
     
     <!-- Acá comienza la pantalla Instrucciones -->
     
-    <section id="instrucciones">
+    <section id="seccion_4" class="instrucciones oculto">
        
         <div id="parent_instrucciones">
            
             <div id="fondo_instrucciones"></div>
             
-            <button id="back_instrucciones">
+            <button id="back_instrucciones" onclick="cambiarSeccion(2)">
                 <span id="texto_back_instrucciones">◖</span>
             </button>
             
@@ -116,7 +116,7 @@
                 <span id="texto_instrucciones_largo_largo">Acá van las instrucciones</span>
             </div>
             
-            <button id="jugar_instrucciones">
+            <button id="jugar_instrucciones" onclick="cambiarSeccion(3)">
                 <span id="texto_jugar_instrucciones">Jugar</span>
             </button>
             
@@ -126,13 +126,13 @@
     
     <!-- Acá comienza la pantalla Créditos -->
     
-    <section id="creditos">
+    <section id="seccion_5" class="creditos oculto">
         
         <div id="parent_creditos">
            
             <div id="fondo_creditos"></div>
             
-            <button id="back_creditos">
+            <button id="back_creditos" onclick="cambiarSeccion(2)">
                 <span id="texto_back_creditos">◖</span>
             </button>
             
@@ -160,14 +160,14 @@
                 <span id="texto_descripcion_tercera">Acá va nuestra descripción</span>
             </div>
             
-            <button id="jugar_creditos">
+            <button id="jugar_creditos" onclick="cambiarSeccion(3)">
                 <span id="texto_jugar_creditos">Jugar</span>
             </button>
         
         </div>
         
     </section>
-    
+    <script src="js/main.js"></script>
 </body>
 </html>
 
