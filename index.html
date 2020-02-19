@@ -26,7 +26,7 @@
           
            <div id="fondo_inicio"></div>
             
-            <input id="jugar_jugar" type="image" src="img/jugar.png"  onclick="cambiarSeccion(3)"</input>
+            <input id="jugar_jugar" type="image" src="img/jugar.png"  onclick="cambiarSeccion(3)" onload="carga()"</input>
             
             <input id="instrucciones_inicio" type="image" src="img/comojugar.png" onclick="cambiarSeccion(4)"></input>
             
@@ -42,17 +42,15 @@
            
             <div id="fondo_juego"></div>
             
-            <button id="back_juego" onclick="cambiarSeccion(2)">
-                <span id="texto_back_juego">◖</span>
-            </button>
+            <input id="back_juego" type="image" src="img/home.png"onclick="cambiarSeccion(2)">
+            </input>
             
             <div id="puntaje">
                 <span id="texto_puntaje"> Puntaje</span>
             </div>
             
-            <button id="pausa">
-                <span id="texto_pausa">| |</span>
-            </button>
+            <input id="pausa" type="image" src="img/pausa.png">
+            </input>
             
             <div id="pregunta">
                 <span id="texto_pregunta">Pregunta</span>
@@ -75,7 +73,9 @@
             </div>
             
             <div id="cronometro">
-                <span id="texto_cronometro">1'</span>
+                <p>
+                    <span id="minutos">0</span>:<span id="segundos">0</span>
+                </p>
             </div>
             
         </div>
@@ -90,9 +90,8 @@
            
             <div id="fondo_instrucciones"></div>
             
-            <button id="back_instrucciones" onclick="cambiarSeccion(2)">
-                <span id="texto_back_instrucciones">◖</span>
-            </button>
+            <input id="back_instrucciones" type="image" src="img/home.png"  onclick="cambiarSeccion(2)">
+            </input>
             
             <div id="instrucciones_instrucciones">
                 <span id="texto_instrucciones">Instrucciones</span>
@@ -102,9 +101,8 @@
                 <span id="texto_instrucciones_largo_largo">Acá van las instrucciones</span>
             </div>
             
-            <button id="jugar_instrucciones" onclick="cambiarSeccion(3)">
-                <span id="texto_jugar_instrucciones">Jugar</span>
-            </button>
+            <input id="jugar_instrucciones" type="image" src="img/jugar.png" onclick="cambiarSeccion(3)">
+            </input>
             
         </div>
         
@@ -118,13 +116,10 @@
            
             <div id="fondo_creditos"></div>
             
-            <button id="back_creditos" onclick="cambiarSeccion(2)">
-                <span id="texto_back_creditos">◖</span>
-            </button>
+            <input id="back_creditos" type="image" src="img/home.png" onclick="cambiarSeccion(2)">
+            </input>
             
-            <div id="primera_persona">
-                <span id="texto_primera_persona">Imagen</span>
-            </div>
+            <img id="primera_persona" src="img/sofiamaya.png" alt="">
             
             <div id="descripcion_primera">
                 <span id="texto_descripcion_primera">Acá va nuestra descripción</span>
@@ -146,9 +141,8 @@
                 <span id="texto_descripcion_tercera">Acá va nuestra descripción</span>
             </div>
             
-            <button id="jugar_creditos" onclick="cambiarSeccion(3)">
-                <span id="texto_jugar_creditos">Jugar</span>
-            </button>
+            <input id="jugar_creditos" type="image" src="img/jugar.png" onclick="cambiarSeccion(3)">
+            </input>
         
         </div>
         

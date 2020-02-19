@@ -1,12 +1,11 @@
-button{
-    border-radius: 100px;
-}
-
 .oculto{
     display: none;
 }
 
+
 /* Primera pantalla */ 
+
+
 
 #parent_splash{
     position: relative;
@@ -57,12 +56,6 @@ button{
     text-align: center;
 }
 
-#texto_creditos_inicio{
-    font-size: 100px;
-
-}
-
-
 
 
 /* Tercera pantalla */ 
@@ -83,22 +76,11 @@ button{
 }
 
 #back_juego{
-    width: 100px;
-    height: 100px;
-    background: green;
+    width: 200px;
+    height: 200px;
     position: absolute;
     top:100px;
     left:100px;
-    text-align: center;
-}
-
-button#back_juego {
-    border-radius: 0px;
-}
-
-
-#texto_back_juego{
-    font-size: 50px;
 }
 
 #puntaje{
@@ -117,21 +99,12 @@ button#back_juego {
 }
 
 #pausa{
-    width: 100px;
-    height: 100px;
-    background: green;
+    width: 200px;
+    height: 200px;
     position: absolute;
     top:100px;
-    left:1020px;
+    left:900px;
     text-align: center;
-}
-
-button#pausa {
-    border-radius: 0px;
-}
-
-#texto_pausa{
-    font-size: 50px;
 }
 
 #pregunta{
@@ -219,6 +192,7 @@ button#pausa {
     top:2100px;
     left:510px;
     text-align: center;
+    font-size: 100px;
 }
 
 #texto_cronometro{
@@ -246,22 +220,12 @@ button#pausa {
 }
 
 #back_instrucciones{
-    width: 100px;
-    height: 100px;
-    background: green;
+    width: 200px;
+    height: 200px;
     position: absolute;
     top:100px;
     left:100px;
     text-align: center;
-}
-
-button#back_instrucciones {
-    border-radius: 0px;
-}
-
-
-#texto_back_instrucciones{
-    font-size: 50px;
 }
 
 
@@ -298,15 +262,10 @@ button#back_instrucciones {
 #jugar_instrucciones{
     width: 500px;
     height: 200px;
-    background: green;
     position: absolute;
     top:2050px;
     left:350px;
     text-align: center;
-}
-
-#texto_jugar_instrucciones{
-    font-size: 100px;
 }
 
 
@@ -327,30 +286,21 @@ button#back_instrucciones {
 }
 
 #back_creditos{
-    width: 100px;
-    height: 100px;
-    background: green;
+    width: 200px;
+    height: 200px;
     position: absolute;
     top:100px;
     left:100px;
     text-align: center;
 }
 
-button#back_creditos {
-    border-radius: 0px;
-}
-
-#texto_back_creditos{
-    font-size: 50px;
-}
 
 #primera_persona{
-    width: 350px;
-    height: 350px;
-    background: green;
+    width: 450px;
+    height: 450px;
     position: absolute;
-    top:600px;
-    left:110px;
+    top:550px;
+    left:50px;
     text-align: center;
     border-radius:350px;
 }
@@ -446,17 +396,11 @@ button#back_creditos {
 #jugar_creditos{
     width: 500px;
     height: 200px;
-    background: green;
     position: absolute;
     top:2100px;
     left:350px;
     text-align: center;
 }
-
-#texto_jugar_creditos{
-    font-size: 100px;
-}
-
 
 
 
