@@ -14,11 +14,7 @@
     <section id="seccion_1" class="splash animated fadeIn">
         <div id="parent_splash">
           
-           <div id="fondo_splash"></div>
-           
-           <div id="imagen_splash" style="width: 500px;">
-               <span id="primer_texto">Imagen Splash</span> <!-- Acá se colocara una imagen-->
-           </div>
+           <video src="img/splash.MP4" muted autoplay loop type="video/MP4" height="2498.92px" width="1184.73px"></video>
            
         </div>
     </section>
@@ -29,22 +25,12 @@
        <div id="parent_inicio">
           
            <div id="fondo_inicio"></div>
-           
-            <div id="imagen_inicio">
-                <span id="texto_imagen_inicio">Imagen</span> <!-- Esto será reemplazado por una imagen-->
-            </div>
             
-            <button id="jugar_jugar"  onclick="cambiarSeccion(3)">
-                <span id="texto_jugar_jugar">Jugar</span>
-            </button>
+            <input id="jugar_jugar" type="image" src="img/jugar.png"  onclick="cambiarSeccion(3)"</input>
             
-            <button id="instrucciones_inicio" onclick="cambiarSeccion(4)">
-                <span id="texto_instrucciones_jugar">Instrucciones</span>
-            </button>
+            <input id="instrucciones_inicio" type="image" src="img/comojugar.png" onclick="cambiarSeccion(4)"></input>
             
-            <button id="creditos_inicio"  onclick="cambiarSeccion(5)">
-                <span id="texto_creditos_inicio">Créditos</span>
-            </button>
+            <input id="creditos_inicio" type="image" src="img/creditos.png" onclick="cambiarSeccion(5)"></input>
             
         </div>
     </section>

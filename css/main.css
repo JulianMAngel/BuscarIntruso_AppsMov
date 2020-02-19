@@ -14,32 +14,7 @@ button{
 }
 
 
-#fondo_splash{
-    margin:20px;
-    width: 1184.73px;
-    height: 2498.92px;
-    background: lightblue;
-}
-
-#imagen_splash{
-    height: 1249.46px;
-    position: absolute;
-    top: 650px;
-    left:350px;
-    text-align: center;
-}
-
-#primer_texto{
-    font-size: 100px;
-    position: relative;
-    top:500px;
-}
-
-
-
-
 /* Segunda pantalla */ 
-
 
 
 
@@ -53,61 +28,32 @@ button{
     margin:20px;
     width: 1184.73px;
     height: 2498.92px;
-    background: lightblue;
-}
-
-#imagen_inicio{
-    width: 500px;
-    height: 500px;
-    background: green;
-    position: absolute;
-    top: 450px;
-    left:350px;
-    text-align: center;
-}
-
-#texto_imagen_inicio{
-    font-size: 100px;
-    position: relative;
-    top:200px;
+    background:#7C2C8A;
 }
 
 #jugar_jugar{
-    width: 500px;
-    height: 200px;
-    background: green;
+    width: 800px;
+    height: 300px;
     position: absolute;
-    top:1500px;
-    left:350px;
-    text-align: center;
+    top:1000px;
+    left:210px;
 }
 
-#texto_jugar_jugar{
-    font-size: 100px;
-}
 
 #instrucciones_inicio{
     width: 730px;
-    height: 200px;
-    background: green;
+    height: 150px;
     position: absolute;
     top:1800px;
     left:230px;
-    text-align: center;
-}
-
-#texto_instrucciones_jugar{
-    font-size: 100px;
-
 }
 
 #creditos_inicio{
-    width: 500px;
-    height: 200px;
-    background: green;
+    width: 700px;
+    height: 150px;
     position: absolute;
     top:2100px;
-    left:350px;
+    left:260px;
     text-align: center;
 }
 
@@ -133,7 +79,7 @@ button{
     margin:20px;
     width: 1184.73px;
     height: 2498.92px;
-    background: lightblue;
+    background: #7C2C8A;
 }
 
 #back_juego{
@@ -296,7 +242,7 @@ button#pausa {
     margin:20px;
     width: 1184.73px;
     height: 2498.92px;
-    background: lightblue;
+    background: #7C2C8A;
 }
 
 #back_instrucciones{
@@ -377,7 +323,7 @@ button#back_instrucciones {
     margin:20px;
     width: 1184.73px;
     height: 2498.92px;
-    background: lightblue;
+    background:#7C2C8A;
 }
 
 #back_creditos{
