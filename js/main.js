@@ -1,4 +1,7 @@
 var secciones = [];
+var imagenes = [];
+var preguntas [];
+
 var tiempo_splash = 3000;
     
 window.onload = function(){
@@ -12,6 +15,15 @@ function inicializarReferencias(){
     secciones[3] = document.getElementById("seccion_3");
     secciones[4] = document.getElementById("seccion_4");
     secciones[5] = document.getElementById("seccion_5");
+    imagenes[1] = document.getElementById("primera_imagen");
+    imagenes[2] = document.getElementById("segunda_imagen");
+    imagenes[3] = document.getElementById("tercera_imagen");
+    imagenes[4] = document.getElementById("cuarta_imagen");
+    preguntas[1] = document.getElementById("pregunta_uno");
+    preguntas[2] = document.getElementById("pregunta_dos");
+    preguntas[3] = document.getElementById("pregunta_tres");
+    preguntas[4] = document.getElementById("pregunta_cuatro");
+
 }
     
 function cambiarSplash(){
@@ -21,6 +33,14 @@ function cambiarSplash(){
     
 function cambiarSeccion(id_seccion){
     for (var i in secciones) {
+        secciones[i].classList.add("oculto");
+    }
+    secciones[id_seccion].classList.remove("oculto");
+
+}
+
+function puntuacion(id_pregunta){
+    for (var i in preguntas) {
         secciones[i].classList.add("oculto");
     }
     secciones[id_seccion].classList.remove("oculto");

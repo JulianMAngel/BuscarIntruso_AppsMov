@@ -122,9 +122,8 @@
 }
 
 #primera_imagen{
-    width: 350px;
-    height: 350px;
-    background: green;
+    width: 450px;
+    height: 450px;
     position: absolute;
     top:1050px;
     left:110px;
@@ -138,12 +137,11 @@
 }
 
 #segunda_imagen{
-    width: 350px;
-    height: 350px;
-    background: green;
+    width: 450px;
+    height: 450px;
     position: absolute;
     top:1050px;
-    left:760px;
+    left:660px;
     text-align: center;
 }
 
@@ -154,9 +152,8 @@
 }
 
 #tercera_imagen{
-    width: 350px;
-    height: 350px;
-    background: green;
+    width: 450px;
+    height: 450px;
     position: absolute;
     top:1600px;
     left:110px;
@@ -170,12 +167,11 @@
 }
 
 #cuarta_imagen{
-    width: 350px;
-    height: 350px;
-    background: green;
+    width: 450px;
+    height: 450px;
     position: absolute;
     top:1600px;
-    left:760px;
+    left:660px;
     text-align: center;
 }
 
