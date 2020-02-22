@@ -1,3 +1,8 @@
+@font-face{
+  font-family: Bebas Neue;
+  src: url(BebasNeue-Regular.woff);
+}
+
 .oculto{
     display: none;
 }
@@ -94,6 +99,7 @@
 }
 
 #texto_puntaje{
+    font-family: Bebas Neue;
     font-size: 80px;
 
 }
@@ -107,7 +113,7 @@
     text-align: center;
 }
 
-#pregunta{
+#pregunta_uno{
     width: 1000px;
     height: 100px;
     background: white;
@@ -182,16 +188,19 @@
 }
 
 #cronometro{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     position: absolute;
     top:2100px;
-    left:510px;
+    left:420px;
     text-align: center;
-    font-size: 100px;
+    font-size: 150px;
+    font-family: Bebas Neue;
+    color: #F9DA49;
 }
 
 #texto_cronometro{
+    font-family: Bebas Neue;
     font-size: 80px;
     position: relative;
     top:50px;
