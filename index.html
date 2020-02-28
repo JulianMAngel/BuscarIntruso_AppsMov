@@ -14,7 +14,7 @@
     <section id="seccion_1" class="splash animated fadeIn">
         <div id="parent_splash">
           
-           <video src="img/splash.MP4" muted autoplay loop type="video/MP4" height="2498.92px" width="1184.73px"></video>
+           <video id="splash" src="img/splash.MP4" muted autoplay loop type="video/MP4"></video>
            
         </div>
     </section>
@@ -55,12 +55,34 @@
             <div id="pregunta_uno">
                 <span id="texto_pregunta">¿Cual no es un color primario?</span>
             </div>
-            
-                <img id="primera_imagen" src="img/colores/amarillo.png" onclick="cambiarSeccion(2)">
-                <img id="segunda_imagen"  src="img/colores/azul.png" onclick="cambiarSeccion(2)">
-                <img id="tercera_imagen" src="img/colores/rojo.png" onclick="cambiarSeccion(2)">            
-                <img id="cuarta_imagen" src="img/colores/verde.png" onclick="cambiarSeccion(2)">
-            
+                <section id="primera_pregunta">
+                    <img id="imagen_1" src="img/colores/amarillo.png" onclick="respuestaIncorrecta(2)">
+                    <img id="imagen_2"  src="img/colores/azul.png" onclick="respuestaIncorrecta(2)">
+                    <img id="imagen_3" src="img/colores/rojo.png" onclick="respuestaIncorrecta(2)">            
+                    <img id="imagen_4" src="img/colores/verde.png" onclick="respuestaCorrecta(2)">
+                </section>
+
+                <section id="segunda_pregunta" class="oculto">
+                    <img id="imagen_5" src="img/paises/panama.png" onclick="respuestaCorrecta(3)">
+                    <img id="imagen_6"  src="img/paises/italia.png" onclick="respuestaIncorrecta(2)">
+                    <img id="imagen_7" src="img/paises/paisesbajos.png" onclick="respuestaIncorrecta(2)">            
+                    <img id="imagen_8" src="img/paises/francia.png" onclick="respuestaIncorrecta(2)">
+                </section>
+
+                <section id="tercera_pregunta" class="oculto">
+                    <img id="imagen_9" src="img/playa/coco.png" onclick="respuestaIncorrecta(2)">
+                    <img id="imagen_10"  src="img/playa/semaforo.png" onclick="respuestaCorrecta(4)">
+                    <img id="imagen_11" src="img/playa/palma.png" onclick="respuestaIncorrecta(2)">            
+                    <img id="imagen_12" src="img/playa/sol.png" onclick="respuestaIncorrecta(2)">
+                </section>
+
+                <section id="cuarta_pregunta" class="oculto">
+                    <img id="imagen_13" src="img/reptiles/cocodrilo.png" onclick="respuestaIncorrecta(2)">
+                    <img id="imagen_14"  src="img/reptiles/ballena.png" onclick="respuestaCorrecta(5)">
+                    <img id="imagen_15" src="img/reptiles/rana.png" onclick="respuestaIncorrecta(2)">            
+                    <img id="imagen_16" src="img/reptiles/serpiente.png" onclick="respuestaIncorrecta(2)">
+                </section>
+
             <div id="cronometro">
                 <p>
                     <span id="minutos">0</span>:<span id="segundos">0</span>

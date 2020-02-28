@@ -10,7 +10,10 @@
 
 /* Primera pantalla */ 
 
-
+#splash{
+  height:"2498.92px";
+  width:"1184.73px";
+}
 
 #parent_splash{
     position: relative;
@@ -127,7 +130,7 @@
     font-size: 80px;
 }
 
-#primera_imagen{
+#imagen_1{
     width: 450px;
     height: 450px;
     position: absolute;
@@ -136,13 +139,7 @@
     text-align: center;
 }
 
-#texto_primera_pregunta{
-    font-size: 80px;
-    position: relative;
-    top:120px;
-}
-
-#segunda_imagen{
+#imagen_2{
     width: 450px;
     height: 450px;
     position: absolute;
@@ -151,13 +148,7 @@
     text-align: center;
 }
 
-#texto_segunda_pregunta{
-    font-size: 80px;
-    position: relative;
-    top:120px;
-}
-
-#tercera_imagen{
+#imagen_3{
     width: 450px;
     height: 450px;
     position: absolute;
@@ -166,13 +157,7 @@
     text-align: center;
 }
 
-#texto_tercera_pregunta{
-    font-size: 80px;
-    position: relative;
-    top:120px;
-}
-
-#cuarta_imagen{
+#imagen_4{
     width: 450px;
     height: 450px;
     position: absolute;
@@ -181,10 +166,112 @@
     text-align: center;
 }
 
-#texto_cuarta_pregunta{
-    font-size: 80px;
-    position: relative;
-    top:120px;
+#imagen_5{
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top:1050px;
+  left:110px;
+  text-align: center;
+}
+
+#imagen_6{
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top:1050px;
+  left:660px;
+  text-align: center;
+}
+
+#imagen_7{
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top:1600px;
+  left:110px;
+  text-align: center;
+}
+
+#imagen_8{
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top:1600px;
+  left:660px;
+  text-align: center;
+}
+
+#imagen_9{
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top:1050px;
+  left:110px;
+  text-align: center;
+}
+
+#imagen_10{
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top:1050px;
+  left:660px;
+  text-align: center;
+}
+
+#imagen_11{
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top:1600px;
+  left:110px;
+  text-align: center;
+}
+
+#imagen_12{
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top:1600px;
+  left:660px;
+  text-align: center;
+}
+
+#imagen_13{
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top:1050px;
+  left:110px;
+  text-align: center;
+}
+
+#imagen_14{
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top:1050px;
+  left:660px;
+  text-align: center;
+}
+
+#imagen_15{
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top:1600px;
+  left:110px;
+  text-align: center;
+}
+
+#imagen_16{
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top:1600px;
+  left:660px;
+  text-align: center;
 }
 
 #cronometro{
@@ -414,7 +501,7 @@
 
 
 
-@charset "UTF-8";
+/*@charset "UTF-8";
 
 /*!
  * animate.css -https://daneden.github.io/animate.css/

@@ -1,4 +1,5 @@
 var secciones = [];
+var preguntas = [];
 var tiempo_splash = 3000;
 var id_intervalo;
 
@@ -13,6 +14,10 @@ function inicializarReferencias(){
     secciones[3] = document.getElementById("seccion_3");
     secciones[4] = document.getElementById("seccion_4");
     secciones[5] = document.getElementById("seccion_5");
+    preguntas[1] = document.getElementById("primera_pregunta")
+    preguntas[2] = document.getElementById("segunda_pregunta")
+    preguntas[3] = document.getElementById("tercera_pregunta")
+    preguntas[4] = document.getElementById("cuarta_pregunta")
     s = document.getElementById("segundos");
     m = document.getElementById("minutos");
 }
@@ -62,3 +67,35 @@ function tiempo(){
     s.innerHTML = contador_s;
     contador_s++;
 }
+
+function respuestaIncorrecta(id_seccion){
+    alert("Tu repuesta ha sido incorrecta")
+    for (var i in secciones) {
+        secciones[i].classList.add("oculto");
+    }
+    secciones[id_seccion].classList.remove("oculto");
+
+}
+
+function respuestaCorrecta(id_pregunta){
+    if((id_pregunta == 5))
+    {
+        alert("Felicidades!!!. Has completado el juego con exito")
+        secciones[2].classList.remove("oculto");
+    }else{
+        alert("Felicidades!!!. Tu repuesta es correcta")
+        for (var i in preguntas) {
+            preguntas[i].classList.add("oculto");
+        }
+    }
+    preguntas[id_pregunta].classList.remove("oculto");
+    
+}
+
+
+/* Pendientes
+    Pausa
+    Ventanas Emergentes
+    Arreglar Primer nivel
+    Validaciones de salida de juego
+*/
