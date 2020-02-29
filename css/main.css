@@ -92,19 +92,15 @@
 }
 
 #puntaje{
-    width: 400px;
-    height: 100px;
-    background: white;
-    position: absolute;
-    top:100px;
-    left:400px;
-    text-align: center;
-}
-
-#texto_puntaje{
-    font-family: Bebas Neue;
-    font-size: 80px;
-
+  width: 400px;
+  height: 100px;
+  color: white;
+  position: absolute;
+  top:120px;
+  left:400px;
+  text-align: center;
+  font-size: 120px;
+  font-family: Bebas Neue;
 }
 
 #pausa{
@@ -116,18 +112,40 @@
     text-align: center;
 }
 
-#pregunta_uno{
-    width: 1000px;
-    height: 100px;
-    background: white;
-    position: absolute;
-    top:700px;
-    left:110px;
-    text-align: center;
+#texto_pregunta1{
+  color: white;
+  position:relative;
+  bottom:1800px;
+  left:150px;
+  font-family: Bebas Neue;
+  font-size: 90px;
 }
 
-#texto_pregunta{
-    font-size: 80px;
+#texto_pregunta2{
+  color: white;
+  position:relative;
+  bottom: 1800px;
+  left: 180px;
+  font-family: Bebas Neue;
+  font-size: 90px;
+}
+
+#texto_pregunta3{
+  color: white;
+  position:relative;
+  bottom: 1800px;
+  left: 150px;
+  font-family: Bebas Neue;
+  font-size: 70px;
+}
+
+#texto_pregunta4{
+  color: white;
+  position:relative;
+  bottom: 1800px;
+  left: 140px;
+  font-family: Bebas Neue;
+  font-size: 90px;
 }
 
 #imagen_1{
@@ -322,13 +340,14 @@
 
 
 #instrucciones_instrucciones{
-    width: 600px;
-    height: 100px;
-    background: white;
-    position: absolute;
-    top:350px;
-    left:310px;
-    text-align: center;
+  width: 600px;
+  height: 100px;
+  color: white;
+  position: absolute;
+  top:350px;
+  left:310px;
+  font-family: Bebas Neue;
+  text-align: center;
 }
 
 #texto_instrucciones{
@@ -336,13 +355,14 @@
 }
 
 #texto_instrucciones_largo{
-    width: 1000px;
-    height: 1200px;
-    background: white;
-    position: absolute;
-    top:700px;
-    left:110px;
-    text-align: center;
+  width: 1000px;
+  height: 1200px;
+  color: white;
+  position: absolute;
+  top:700px;
+  left:110px;
+  font-family: Bebas Neue;
+  text-align: center;
 }
 
 #texto_instrucciones_largo_largo{
@@ -397,24 +417,19 @@
     border-radius:350px;
 }
 
-#texto_primera_persona{
-    font-size: 80px;
-    position: relative;
-    top:120px;
-}
-
 #descripcion_primera{
-    width: 500px;
-    height: 400px;
-    background: white;
-    position: absolute;
-    top: 570px;
-    left: 600px;
-    text-align: center;
+  width: 500px;
+  height: 400px;
+  color: white;
+  position: absolute;
+  top: 550px;
+  left: 600px;
+  font-family: Bebas Neue;
+  text-align: center;
 }
 
 #texto_descripcion_primera{
-    font-size: 100px;
+    font-size: 80px;
     position: relative;
     top: 20px;
 }
@@ -422,7 +437,6 @@
 #segunda_persona{
     width: 350px;
     height: 350px;
-    background: green;
     position: absolute;
     top:1100px;
     left:110px;
@@ -430,24 +444,19 @@
     border-radius:350px;
 }
 
-#texto_segunda_persona{
-    font-size: 80px;
-    position: relative;
-    top:120px;
-}
-
 #descripcion_segunda{
-    width: 500px;
-    height: 400px;
-    background: white;
-    position: absolute;
-    top: 1070px;
-    left: 600px;
-    text-align: center;
+  width: 500px;
+  height: 400px;
+  color: white;
+  position: absolute;
+  top: 1130px;
+  left: 600px;
+  font-family: Bebas Neue;
+  text-align: center;
 }
 
 #texto_descripcion_segunda{
-    font-size: 100px;
+    font-size: 80px;
     position: relative;
     top: 20px;
 }
@@ -455,7 +464,6 @@
 #tercera_persona{
     width: 350px;
     height: 350px;
-    background: green;
     position: absolute;
     top:1600px;
     left:110px;
@@ -463,24 +471,19 @@
     border-radius:350px;
 }
 
-#texto_tercera_persona{
-    font-size: 80px;
-    position: relative;
-    top:120px;
-}
-
 #descripcion_tercera{
-    width: 500px;
-    height: 400px;
-    background: white;
-    position: absolute;
-    top: 1570px;
-    left: 600px;
-    text-align: center;
+  width: 500px;
+  height: 400px;
+  color: white;
+  position: absolute;
+  top: 1630px;
+  left: 600px;
+  font-family: Bebas Neue;
+  text-align: center;
 }
 
 #texto_descripcion_tercera{
-    font-size: 100px;
+    font-size: 80px;
     position: relative;
     top: 20px;
 }

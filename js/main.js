@@ -2,6 +2,7 @@ var secciones = [];
 var preguntas = [];
 var tiempo_splash = 3000;
 var id_intervalo;
+var score = 1;
 
 window.onload = function(){
     inicializarReferencias();
@@ -37,7 +38,10 @@ function cambiarSeccion(id_seccion){
 
 function comenzarJuego(){
     secciones[2].className = "inicio oculto";
+    secciones[4].className = "instrucciones oculto";
+    secciones[5].className = "creditos oculto";
     secciones[3].className = "juego";
+    preguntas[1].className = "pregunta_uno";
     contador_s=0;
     contador_m=0;
     
@@ -78,7 +82,7 @@ function respuestaIncorrecta(id_seccion){
 }
 
 function respuestaCorrecta(id_pregunta){
-    if((id_pregunta == 5))
+    /*if((id_pregunta == 5))
     {
         alert("Felicidades!!!. Has completado el juego con exito")
         secciones[2].classList.remove("oculto");
@@ -89,6 +93,14 @@ function respuestaCorrecta(id_pregunta){
         }
     }
     preguntas[id_pregunta].classList.remove("oculto");
+    document.getElementById("puntaje").innerHTML = score;
+    document.getElementById("puntaje").innerHTML = score++ + "0  PUNTOS";*/
+    for (var i in preguntas) {
+        preguntas[i].classList.add("oculto");
+    }
+    preguntas[id_pregunta].classList.remove("oculto");
+    document.getElementById("puntaje").innerHTML = score;
+    document.getElementById("puntaje").innerHTML = score++ + "0  PUNTOS";
     
 }
 
