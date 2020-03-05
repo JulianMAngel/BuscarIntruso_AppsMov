@@ -26,7 +26,7 @@
           
            <div id="fondo_inicio"></div>
             
-            <input id="jugar_jugar" type="image" src="img/jugar.png"  onclick="comenzarJuego()"</input>
+            <input id="jugar_jugar" type="image" src="img/jugar.png" onclick="comenzarJuego()"</input>
             
             <input id="instrucciones_inicio" type="image" src="img/comojugar.png" onclick="cambiarSeccion(4)"></input>
             
@@ -42,29 +42,29 @@
            
             <div id="fondo_juego"></div>
             
-            <input id="back_juego" type="image" src="img/home.png"onclick="cambiarSeccion(2)">
+            <input id="back_juego" type="image" src="img/home.png" onclick="cambiarSeccion(2)">
             </input>
             
             <div id="puntaje">
                 <span id="texto_puntaje">0 PUNTOS</span>
             </div>
             
-            <input id="pausa" type="image" src="img/pausa.png">
+            <input id="pausa" type="image" src="img/pausa.png" onclick="parar()">
             </input>
             
             <div id="pregunta_uno">
-                <section id="primera_pregunta">
+                <section id="primera_pregunta" class="pregunta1">
                     <span id="texto_pregunta1">¿Cuál no es un color primario?</span>
                     <img id="imagen_1" src="img/colores/amarillo.png" onclick="respuestaIncorrecta(2)">
-                    <img id="imagen_2"  src="img/colores/azul.png" onclick="respuestaIncorrecta(2)">
+                    <img id="imagen_2" src="img/colores/azul.png" onclick="respuestaIncorrecta(2)">
                     <img id="imagen_3" src="img/colores/rojo.png" onclick="respuestaIncorrecta(2)">            
                     <img id="imagen_4" src="img/colores/verde.png" onclick="respuestaCorrecta(2)">
                 </section>
 
-                <section id="segunda_pregunta" class="oculto">
+                <section id="segunda_pregunta" class="pregunta2 oculto">
                     <span id="texto_pregunta2">¿Cuál no es un país europeo?</span>
                     <img id="imagen_5" src="img/paises/panama.png" onclick="respuestaCorrecta(3)">
-                    <img id="imagen_6"  src="img/paises/italia.png" onclick="respuestaIncorrecta(2)">
+                    <img id="imagen_6" src="img/paises/italia.png" onclick="respuestaIncorrecta(2)">
                     <img id="imagen_7" src="img/paises/paisesbajos.png" onclick="respuestaIncorrecta(2)">            
                     <img id="imagen_8" src="img/paises/francia.png" onclick="respuestaIncorrecta(2)">
                 </section>
@@ -72,7 +72,7 @@
                 <section id="tercera_pregunta" class="oculto">
                     <span id="texto_pregunta3">¿Cuál no está relacionada con la playa?</span>
                     <img id="imagen_9" src="img/playa/coco.png" onclick="respuestaIncorrecta(2)">
-                    <img id="imagen_10"  src="img/playa/semaforo.png" onclick="respuestaCorrecta(4)">
+                    <img id="imagen_10" src="img/playa/semaforo.png" onclick="respuestaCorrecta(4)">
                     <img id="imagen_11" src="img/playa/palma.png" onclick="respuestaIncorrecta(2)">            
                     <img id="imagen_12" src="img/playa/sol.png" onclick="respuestaIncorrecta(2)">
                 </section>
@@ -80,9 +80,17 @@
                 <section id="cuarta_pregunta" class="oculto">
                     <span id="texto_pregunta4">¿Cuál no es un anfibio ni reptil?</span>
                     <img id="imagen_13" src="img/reptiles/cocodrilo.png" onclick="respuestaIncorrecta(2)">
-                    <img id="imagen_14"  src="img/reptiles/ballena.png" onclick="respuestaCorrecta(2)">
+                    <img id="imagen_14" src="img/reptiles/ballena.png" onclick="respuestaCorrecta(2)">
                     <img id="imagen_15" src="img/reptiles/rana.png" onclick="respuestaIncorrecta(2)">            
                     <img id="imagen_16" src="img/reptiles/serpiente.png" onclick="respuestaIncorrecta(2)">
+                </section>
+
+                <section id="menu_stop" class="pausa oculto">
+                    <div id="fondo_menu">
+                        <span id="pregunta_pausa">¿Realmente quieres salir?</span>
+                        <button id="aceptar" class="boton_pausa">Aceptar</button>
+                        <button id="cancelar" class="boton_pausa">Cancelar</button>
+                    </div>
                 </section>
 
             <div id="cronometro">
