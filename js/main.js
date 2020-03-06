@@ -4,6 +4,9 @@ var tiempo_splash = 3000;
 var stop;
 var id_intervalo;
 var score = 1;
+var timeleft = 10;
+var startTime = 0;
+var currentTime = 0;
 
 window.onload = function(){
     inicializarReferencias();
@@ -46,35 +49,25 @@ function comenzarJuego(){
     preguntas[2].className = "pregunta2 oculto";
     preguntas[3].className = "pregunta3 oculto";
     preguntas[4].className = "pregunta4 oculto";
-    document.getElementById("minutos").innerHTML = "0";
     contador_s=0;
     contador_m=0;
-    
+
     activarTiempo();
 }
 
 function activarTiempo(){
-    if(id_intervalo){
-        clearInterval(id_intervalo);
-    }
-    id_intervalo = setInterval(tiempo,1000);
-}
 
-function tiempo(){
-    if(contador_s==60){
-        
-        contador_s=0;
-        contador_m++;
-        m.innerHTML = contador_m;
-        
-        if(contador_m==0){
-            
-            contador_m=0;
+    document.getElementById("cuenta").innerHTML = timeleft - currentTime;
+
+    var intervalo = setInterval(timeIt, 1000);
+
+    function timeIt(){
+        currentTime++;
+        document.getElementById("cuenta").innerHTML = timeleft - currentTime;
+        if(currentTime == timeleft){
+            clearInterval(intervalo);
         }
     }
-    
-    s.innerHTML = contador_s;
-    contador_s++;
 }
 
 function parar(){
@@ -119,4 +112,34 @@ function respuestaCorrecta(id_pregunta){
     Ventanas Emergentes
     Arreglar Primer nivel
     Validaciones de salida de juego
+
+
+
+
+
+
+
+    function activarTiempo(){
+    if(id_intervalo){
+        clearInterval(id_intervalo);
+    }
+    id_intervalo = setInterval(tiempo,1000);
+}
+
+function tiempo(){
+    if(contador_s==60){
+        
+        contador_s=0;
+        contador_m++;
+        m.innerHTML = contador_m;
+        
+        if(contador_m==0){
+            
+            contador_m=0;
+        }
+    }
+    
+    s.innerHTML = contador_s;
+    contador_s++;
+}
 */
