@@ -121,7 +121,7 @@
   left: 20px;
 }
 
-#pregunta_pausa{
+#pregunta_salir{
     font-size: 80px;
     font-family: Bebas Neue;
     position: relative;
@@ -129,7 +129,7 @@
     left: 240px;
 }
 
-.boton_pausa{
+.boton{
   width: 400px;
   height: 150px;
   border-radius: 30px;
@@ -145,10 +145,25 @@
 
 }
 
+#fondo_pausa{
+  width: 1184.73px;
+  height: 500px;
+  background: brown;
+  position: relative;
+  bottom: 1600px;
+  left: 20px;
+}
+
 #cancelar{
   background: green;
   left: 680px;
   top: 350px;
+}
+
+#texto_continuar{
+  background: lightcoral;
+  left: 400px;
+  top: 190px;
 }
 
 #texto_pregunta1{

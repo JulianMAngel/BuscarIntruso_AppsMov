@@ -26,7 +26,7 @@
           
            <div id="fondo_inicio"></div>
             
-            <input id="jugar_jugar" type="image" src="img/jugar.png" onclick="comenzarJuego()"</input>
+            <input id="jugar_jugar" type="image" src="img/jugar.png" onclick="comenzarJuego()"></input>
             
             <input id="instrucciones_inicio" type="image" src="img/comojugar.png" onclick="cambiarSeccion(4)"></input>
             
@@ -42,14 +42,14 @@
            
             <div id="fondo_juego"></div>
             
-            <input id="back_juego" type="image" src="img/home.png" onclick="cambiarSeccion(2)">
+            <input id="back_juego" type="image" src="img/home.png" onclick="salida()">
             </input>
             
             <div id="puntaje">
                 <span id="texto_puntaje">0 PUNTOS</span>
             </div>
             
-            <input id="pausa" type="image" src="img/pausa.png" onclick="parar()">
+            <input id="pausa" type="image" src="img/pausa.png" onclick="pausar()">
             </input>
             
             <div id="pregunta_uno">
@@ -85,16 +85,22 @@
                     <img id="imagen_16" src="img/reptiles/serpiente.png" onclick="respuestaIncorrecta(2)">
                 </section>
 
-                <section id="menu_stop" class="pausa oculto">
+                <section id="menu_stop" class="salir oculto">
                     <div id="fondo_menu">
-                        <span id="pregunta_pausa">¿Realmente quieres salir?</span>
-                        <button id="aceptar" class="boton_pausa">Aceptar</button>
-                        <button id="cancelar" class="boton_pausa">Cancelar</button>
+                        <span id="pregunta_salir">¿Realmente quieres salir?</span>
+                        <button id="aceptar" class="boton" onclick="regresar()">Aceptar</button>
+                        <button id="cancelar" class="boton" onclick="cancelar()">Cancelar</button>
+                    </div>
+                </section>
+
+                <section id="continuar" class="despausar oculto">
+                    <div id="fondo_pausa">
+                        <button id="texto_continuar" class="boton" onclick="cancelar()">Continuar</button>
                     </div>
                 </section>
 
             <div id="cronometro">
-                <span id="cuenta">Prueba</span>
+                <span id="cuenta"></span>
             </div>
             
         </div>
@@ -117,7 +123,7 @@
             </div>
             
             <div id="texto_instrucciones_largo">
-                <span id="texto_instrucciones_largo_largo">Por cada partida saldra una pregunta, debes señalar la que no pertenece al grupo. Tienes 10 segundos para responder cada pregunta, cada respuesta correcta suma 10 puntos</span>
+                <span id="texto_instrucciones_largo_largo">Por cada partida saldra una pregunta, debes señalar la que no pertenece al grupo. Tienes 10 segundos para responder cada pregunta y sumas 10 puntos por respuesta correcta</span>
             </div>
             
             <input id="jugar_instrucciones" type="image" src="img/jugar.png" onclick="comenzarJuego()">

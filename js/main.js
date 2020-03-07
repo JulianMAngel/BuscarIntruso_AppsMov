@@ -37,9 +37,12 @@ function inicializarReferencias(){
     contador_puntaje = document.getElementById("puntaje");
     salir = document.getElementById("menu_stop");
     continuar = document.getElementById("continuar");
-
 }
-    
+
+
+/* Funciones para cambiar diferentes secciones */
+
+
 function cambiarSplash(){
     secciones[1].className = "splash oculto";
     secciones[2].className = "inicio animated bounceInDown";
@@ -64,9 +67,12 @@ function comenzarJuego(){
     preguntas[3].className = "pregunta3 oculto";
     preguntas[4].className = "pregunta4 oculto";
 
+
     activarTiempo();
     reset();
 }
+
+/* Funciones para el tiempo por pregunta */
 
 function activarTiempo(){
     if(intervalo){
@@ -86,11 +92,7 @@ function tiempo(){
     }
 }
 
-
-function salida(){
-    salir.className = "salir";
-    pausar();
-}
+/* Funciones para la interacción con las opciones */
 
 function respuestaIncorrecta(id_seccion){
     alert("Tu repuesta ha sido incorrecta")
@@ -100,7 +102,6 @@ function respuestaIncorrecta(id_seccion){
     secciones[id_seccion].classList.remove("oculto");
 
 }
-
 
 function respuestaCorrecta(id_pregunta){
     
@@ -112,6 +113,7 @@ function respuestaCorrecta(id_pregunta){
     activarTiempo();
 }
 
+/* Funciones para los botones mientras se está jugando */
 
 function reset(){
     score = 1;
@@ -119,11 +121,16 @@ function reset(){
     contador_puntaje.innerHTML =empezar + " PUNTOS";
 }
 
-
-
 function pausar(){
+    continuar.className = "despausar";
     clearInterval(intervalo);
-    continuar.className = "texto_continuar";
+    secciones[6].className = "pausa oculto";
+}
+
+function salida(){
+    salir.className = "salir";
+    clearInterval(intervalo);
+    secciones[7].className = "continuar oculto";
 }
 
 function regresar(){
@@ -136,10 +143,16 @@ function cancelar(){
     secciones[6].className = "pausa oculto";
     secciones[7].className = "continuar oculto";
 
+    if(intervalo){
+        clearInterval(intervalo);
+    }
+    contador_tiempo.innerHTML = tiempoActual;
+    intervalo = setInterval(tiempo, 1000);
+
 }
 /* Pendientes
-    Pausa
-    Ventanas Emergentes
-    Arreglar Primer nivel
-    Validaciones de salida de juego
+    Pausa - YA
+    Ventanas Emergentes - CASI
+    Arreglar Primer nivel - YA
+    Validaciones de salida de juego - YA
 */
