@@ -33,6 +33,7 @@ function inicializarReferencias(){
     preguntas[2] = document.getElementById("segunda_pregunta");
     preguntas[3] = document.getElementById("tercera_pregunta");
     preguntas[4] = document.getElementById("cuarta_pregunta");
+<<<<<<< HEAD
     preguntas[5] = document.getElementById("quinta_pregunta");
     preguntas[6] = document.getElementById("sexta_pregunta");
     preguntas[7] = document.getElementById("septima_pregunta");
@@ -40,6 +41,8 @@ function inicializarReferencias(){
     preguntas[9] = document.getElementById("novena_pregunta");
     preguntas[10] = document.getElementById("decima_pregunta");
 
+=======
+>>>>>>> 12aa776c24a2d97cc39e7e6960a4aafd0ec671bc
     contador_tiempo = document.getElementById("cuenta");
     contador_puntaje = document.getElementById("puntaje");
     salir = document.getElementById("menu_stop");
@@ -73,12 +76,15 @@ function comenzarJuego(){
     preguntas[2].className = "pregunta2 oculto";
     preguntas[3].className = "pregunta3 oculto";
     preguntas[4].className = "pregunta4 oculto";
+<<<<<<< HEAD
     preguntas[5].className = "pregunta5 oculto";
     preguntas[6].className = "pregunta6 oculto";
     preguntas[7].className = "pregunta7 oculto";
     preguntas[8].className = "pregunta8 oculto";
     preguntas[9].className = "pregunta9 oculto";
     preguntas[10].className = "pregunta10 oculto";
+=======
+>>>>>>> 12aa776c24a2d97cc39e7e6960a4aafd0ec671bc
 
 
     activarTiempo();
@@ -165,7 +171,11 @@ function cancelar(){
 }
 /* Pendientes
     Pausa - YA
+<<<<<<< HEAD
     Ventanas Emergentes - YA
+=======
+    Ventanas Emergentes - CASI
+>>>>>>> 12aa776c24a2d97cc39e7e6960a4aafd0ec671bc
     Arreglar Primer nivel - YA
     Validaciones de salida de juego - YA
 */

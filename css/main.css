@@ -164,6 +164,18 @@
   background: lightcoral;
   left: 400px;
   top: 190px;
+<<<<<<< HEAD
+=======
+}
+
+#texto_pregunta1{
+  color: white;
+  position:relative;
+  bottom:1800px;
+  left:150px;
+  font-family: Bebas Neue;
+  font-size: 90px;
+>>>>>>> 12aa776c24a2d97cc39e7e6960a4aafd0ec671bc
 }
 
 .pregunta{
