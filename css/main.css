@@ -121,7 +121,7 @@
   left: 20px;
 }
 
-#pregunta_pausa{
+#pregunta_salir{
     font-size: 80px;
     font-family: Bebas Neue;
     position: relative;
@@ -129,7 +129,7 @@
     left: 240px;
 }
 
-.boton_pausa{
+.boton{
   width: 400px;
   height: 150px;
   border-radius: 30px;
@@ -145,49 +145,87 @@
 
 }
 
+#fondo_pausa{
+  width: 1184.73px;
+  height: 500px;
+  background: brown;
+  position: relative;
+  bottom: 1600px;
+  left: 20px;
+}
+
 #cancelar{
   background: green;
   left: 680px;
   top: 350px;
 }
 
-#texto_pregunta1{
+#texto_continuar{
+  background: lightcoral;
+  left: 400px;
+  top: 190px;
+}
+
+.pregunta{
   color: white;
-  position:relative;
-  bottom:1800px;
-  left:150px;
+  position: relative;
+  bottom: 1800px;
   font-family: Bebas Neue;
   font-size: 90px;
+}
+
+#texto_pregunta1{
+  font-size: 90px;
+  left: 150px;
 }
 
 #texto_pregunta2{
-  color: white;
-  position:relative;
-  bottom: 1800px;
-  left: 180px;
-  font-family: Bebas Neue;
-  font-size: 90px;
+  font-size: 100px;
+    left: 130px;
 }
 
 #texto_pregunta3{
-  color: white;
-  position:relative;
-  bottom: 1800px;
-  left: 150px;
-  font-family: Bebas Neue;
-  font-size: 70px;
+  font-size: 80px;
+    left: 90px;
 }
 
 #texto_pregunta4{
-  color: white;
-  position:relative;
-  bottom: 1800px;
-  left: 140px;
-  font-family: Bebas Neue;
-  font-size: 90px;
+  font-size: 100px;
+    left: 150px;
 }
 
-#imagen_1{
+#texto_pregunta5{
+    font-size: 100px;
+    left: 240px;
+}
+
+#texto_pregunta6{
+    font-size: 80px;
+    left: 60px;
+}
+
+#texto_pregunta7{
+    font-size: 100px;
+    left: 70px;
+}
+
+#texto_pregunta8{
+    font-size: 100px;
+    left: 70px;
+}
+
+#texto_pregunta9{
+    font-size: 80px;
+    left: 40px;
+}
+
+#texto_pregunta10{
+    font-size: 90px;
+    left: 70px;
+}
+
+
+.imagen_1{
     width: 450px;
     height: 450px;
     position: absolute;
@@ -196,7 +234,7 @@
     text-align: center;
 }
 
-#imagen_2{
+.imagen_2{
     width: 450px;
     height: 450px;
     position: absolute;
@@ -205,7 +243,7 @@
     text-align: center;
 }
 
-#imagen_3{
+.imagen_3{
     width: 450px;
     height: 450px;
     position: absolute;
@@ -214,7 +252,7 @@
     text-align: center;
 }
 
-#imagen_4{
+.imagen_4{
     width: 450px;
     height: 450px;
     position: absolute;
@@ -224,111 +262,95 @@
 }
 
 #imagen_5{
-  width: 450px;
-  height: 450px;
-  position: absolute;
-  top:1050px;
-  left:110px;
-  text-align: center;
+    width: 400px;
+    height: 400px;
 }
 
 #imagen_6{
-  width: 450px;
-  height: 450px;
-  position: absolute;
-  top:1050px;
-  left:660px;
-  text-align: center;
+    width: 400px;
+    height: 400px;
 }
 
 #imagen_7{
-  width: 450px;
-  height: 450px;
-  position: absolute;
-  top:1600px;
-  left:110px;
-  text-align: center;
+    width: 400px;
+    height: 400px;
 }
 
 #imagen_8{
-  width: 450px;
-  height: 450px;
-  position: absolute;
-  top:1600px;
-  left:660px;
-  text-align: center;
+    width: 400px;
+    height: 400px;
 }
 
 #imagen_9{
-  width: 450px;
-  height: 450px;
-  position: absolute;
-  top:1050px;
-  left:110px;
-  text-align: center;
+    width: 350px;
+    height: 350px;
+    left: 150px;
 }
 
 #imagen_10{
-  width: 450px;
-  height: 450px;
-  position: absolute;
-  top:1050px;
-  left:660px;
-  text-align: center;
+    width: 350px;
+    height: 350px;
+    left: 700px;
 }
 
 #imagen_11{
-  width: 450px;
-  height: 450px;
-  position: absolute;
-  top:1600px;
-  left:110px;
-  text-align: center;
+    width: 350px;
+    height: 350px;
+    left: 150px;
 }
 
 #imagen_12{
-  width: 450px;
-  height: 450px;
-  position: absolute;
-  top:1600px;
-  left:660px;
-  text-align: center;
+    width: 350px;
+    height: 350px;
+    left: 700px;
 }
 
 #imagen_13{
-  width: 450px;
-  height: 450px;
-  position: absolute;
-  top:1050px;
-  left:110px;
-  text-align: center;
+    width: 350px;
+    height: 350px;
+    left: 150px;
 }
 
 #imagen_14{
-  width: 450px;
-  height: 450px;
-  position: absolute;
-  top:1050px;
-  left:660px;
-  text-align: center;
+    width: 350px;
+    height: 350px;
+    left: 700px;
 }
 
 #imagen_15{
-  width: 450px;
-  height: 450px;
-  position: absolute;
-  top:1600px;
-  left:110px;
-  text-align: center;
+    width: 350px;
+    height: 350px;
+    left: 150px;
 }
 
 #imagen_16{
-  width: 450px;
-  height: 450px;
-  position: absolute;
-  top:1600px;
-  left:660px;
-  text-align: center;
+    width: 350px;
+    height: 350px;
+    left: 700px;
+}
+
+#imagen_17{
+    width: 350px;
+    height: 350px;
+    left: 150px;
+}
+
+#imagen_18{
+    width: 350px;
+    height: 350px;
+    left: 700px;
+}
+
+#imagen_19{
+    width: 350px;
+    height: 350px;
+    left: 150px;
+}
+
+#imagen_20{
+    width: 350px;
+    height: 350px;
+    left: 700px;
 }
 
 #cronometro{
