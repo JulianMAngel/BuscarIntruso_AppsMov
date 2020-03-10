@@ -164,19 +164,95 @@
   background: lightcoral;
   left: 400px;
   top: 190px;
-<<<<<<< HEAD
-=======
 }
 
-#texto_pregunta1{
-  color: white;
-  position:relative;
-  bottom:1800px;
-  left:150px;
-  font-family: Bebas Neue;
-  font-size: 90px;
->>>>>>> 12aa776c24a2d97cc39e7e6960a4aafd0ec671bc
+#fondo_incorrecta{
+  width: 1184.73px;
+  height: 500px;
+  background: brown;
+  position: relative;
+  bottom: 1600px;
+  left: 20px;
 }
+
+#perdio{
+  font-size: 90px;
+  font-family: Bebas Neue;
+  color: white;
+  position: relative;
+  left: 130px;
+    top: 30px;
+}
+
+#tuPuntuacion{
+  font-size: 70px;
+  font-family: Bebas Neue;
+  color: white;
+  position: relative;
+  left: -980px;
+  top: 30px;
+}
+
+#texto_incorrecta{
+  top: 220px;
+  left: 376px;
+}
+
+#fondo_primeraIncorrecta{
+  width: 1184.73px;
+  height: 500px;
+  background: brown;
+  position: relative;
+  bottom: 1600px;
+  left: 20px;
+}
+
+#perdio_primera{
+  font-size: 90px;
+  font-family: Bebas Neue;
+  color: white;
+  position: relative;
+  left: 120px;
+    top: 20px;
+}
+
+#primera_puntuacion{
+  font-size: 100px;
+  font-family: Bebas Neue;
+  color: white;
+  position: relative;
+  left: 450px;
+  top: -50px;
+}
+
+#texto_primeraIncorrecta{
+  top: -120px;
+  left: 390px;
+}
+
+#fondo_ganar{
+  width: 1184.73px;
+  height: 500px;
+  background: brown;
+  position: relative;
+  bottom: 1600px;
+  left: 20px;
+}
+
+#gano{
+  font-size: 110px;
+  font-family: Bebas Neue;
+  color: white;
+  position: relative;
+  left: 200px;
+    top: 100px;
+}
+
+#texto_ganador{
+  top: 270px;
+  left: -390px;
+}
+
 
 .pregunta{
   color: white;

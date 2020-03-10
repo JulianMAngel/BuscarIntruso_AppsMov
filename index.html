@@ -8,8 +8,10 @@
 </head>
 <body>
    
-      <!-- Acá comienza la pantalla Splash -->
-   
+
+                                                                            <!-- Acá comienza la pantalla Splash -->
+
+
    
     <section id="seccion_1" class="splash animated fadeIn">
         <div id="parent_splash">
@@ -19,8 +21,12 @@
         </div>
     </section>
     
-    <!-- Acá comienza la pantalla Inicio -->
     
+
+                                                                            <!-- Acá comienza la pantalla Inicio -->
+    
+
+
     <section id="seccion_2" class="inicio oculto">
        <div id="parent_inicio">
           
@@ -35,8 +41,12 @@
         </div>
     </section>
     
-    <!-- Acá comienza la pantalla Juego -->
+
+
+                                                                            <!-- Acá comienza la pantalla Juego -->
     
+
+
     <section id="seccion_3" class="juego oculto animated bounceInLeft">
         <div id="parent_juego">
            
@@ -55,87 +65,84 @@
             <div id="preguntas">
                 <section id="primera_pregunta" class="pregunta1">
                     <span id="texto_pregunta1" class="pregunta">¿Cuál no es un color primario?</span>
-                    <img class="imagen_1" src="img/colores/amarillo.png" onclick="respuestaIncorrecta(2)">
-                    <img class="imagen_2" src="img/colores/azul.png" onclick="respuestaIncorrecta(2)">
-                    <img class="imagen_3" src="img/colores/rojo.png" onclick="respuestaIncorrecta(2)">            
+                    <img class="imagen_1" src="img/colores/amarillo.png" onclick="primera_incorrecta()">
+                    <img class="imagen_2" src="img/colores/azul.png" onclick="primera_incorrecta()">
+                    <img class="imagen_3" src="img/colores/rojo.png" onclick="primera_incorrecta()">            
                     <img class="imagen_4" src="img/colores/verde.png" onclick="respuestaCorrecta(2)">
                 </section>
 
                 <section id="segunda_pregunta" class="pregunta2 oculto">
                     <span id="texto_pregunta2" class="pregunta">¿Cuál no es un país europeo?</span>
                     <img class="imagen_1" src="img/paises/panama.png" onclick="respuestaCorrecta(3)">
-                    <img class="imagen_2" src="img/paises/italia.png" onclick="respuestaIncorrecta(2)">
-                    <img class="imagen_3" src="img/paises/paisesbajos.png" onclick="respuestaIncorrecta(2)">            
-                    <img class="imagen_4" src="img/paises/francia.png" onclick="respuestaIncorrecta(2)">
+                    <img class="imagen_2" src="img/paises/italia.png" onclick="incorrecto()">
+                    <img class="imagen_3" src="img/paises/paisesbajos.png" onclick="incorrecto()">            
+                    <img class="imagen_4" src="img/paises/francia.png" onclick="incorrecto()">
                 </section>
 
                 <section id="tercera_pregunta" class="oculto">
                     <span id="texto_pregunta3" class="pregunta">¿Cuál no está relacionada con la playa?</span>
-                    <img class="imagen_1" src="img/playa/coco.png" onclick="respuestaIncorrecta(2)">
+                    <img class="imagen_1" src="img/playa/coco.png" onclick="incorrecto()">
                     <img class="imagen_2" src="img/playa/semaforo.png" onclick="respuestaCorrecta(4)">
-                    <img class="imagen_3" src="img/playa/palma.png" onclick="respuestaIncorrecta(2)">            
-                    <img class="imagen_4" src="img/playa/sol.png" onclick="respuestaIncorrecta(2)">
+                    <img class="imagen_3" src="img/playa/palma.png" onclick="incorrecto()">            
+                    <img class="imagen_4" src="img/playa/sol.png" onclick="incorrecto()">
                 </section>
 
                 <section id="cuarta_pregunta" class="oculto">
                     <span id="texto_pregunta4" class="pregunta">¿Cuál no es un animal real?</span>
-                    <img class="imagen_1" src="img/reales/abeja.png" onclick="respuestaIncorrecta(2)">
-                    <img class="imagen_2" src="img/reales/mono.png" onclick="respuestaIncorrecta(2)">
-                    <img class="imagen_3" src="img/reales/pollo.png" onclick="respuestaIncorrecta(2)">            
+                    <img class="imagen_1" src="img/reales/abeja.png" onclick="incorrecto()">
+                    <img class="imagen_2" src="img/reales/mono.png" onclick="incorrecto()">
+                    <img class="imagen_3" src="img/reales/pollo.png" onclick="incorrecto()">            
                     <img class="imagen_4" src="img/reales/unicornio.png" onclick="respuestaCorrecta(5)">
                 </section>
 
-<<<<<<< HEAD
                 <section id="quinta_pregunta" class="oculto">
                     <span id="texto_pregunta5" class="pregunta">¿Cuál no es un balón?</span>
-                    <img id="imagen_5" class="imagen_1" src="img/deportes/basketball.png" onclick="respuestaIncorrecta(2)">
+                    <img id="imagen_5" class="imagen_1" src="img/deportes/basketball.png" onclick="incorrecto()">
                     <img id="imagen_6" class="imagen_2" src="img/deportes/brujeria.png" onclick="respuestaCorrecta(6)">
-                    <img id="imagen_7" class="imagen_3" src="img/deportes/tennis.png" onclick="respuestaIncorrecta(2)">            
-                    <img id="imagen_8" class="imagen_4" src="img/deportes/volleyball.png" onclick="respuestaIncorrecta(2)">
+                    <img id="imagen_7" class="imagen_3" src="img/deportes/tennis.png" onclick="incorrecto()">            
+                    <img id="imagen_8" class="imagen_4" src="img/deportes/volleyball.png" onclick="incorrecto()">
                 </section>
 
                 <section id="sexta_pregunta" class="oculto">
                     <span id="texto_pregunta6" class="pregunta">¿Cuál de los siguientes animales no nada?</span>
-                    <img id="imagen_9" class="imagen_1" src="img/nadan/ballena.png" onclick="respuestaIncorrecta(2)">
+                    <img id="imagen_9" class="imagen_1" src="img/nadan/ballena.png" onclick="incorrecto()">
                     <img id="imagen_10" class="imagen_2" src="img/nadan/flamingo.png" onclick="respuestaCorrecta(7)">
-                    <img id="imagen_11" class="imagen_3" src="img/nadan/globo.png" onclick="respuestaIncorrecta(2)">            
-                    <img id="imagen_12" class="imagen_4" src="img/nadan/pulpo.png" onclick="respuestaIncorrecta(2)">
+                    <img id="imagen_11" class="imagen_3" src="img/nadan/globo.png" onclick="incorrecto()">            
+                    <img id="imagen_12" class="imagen_4" src="img/nadan/pulpo.png" onclick="incorrecto()">
                 </section>
                 
                 <section id="septima_pregunta" class="oculto">
                     <span id="texto_pregunta7" class="pregunta">¿Cuál no representa la navidad?</span>
                     <img class="imagen_1" src="img/navideño/china.png" onclick="respuestaCorrecta(8)">
-                    <img class="imagen_2" src="img/navideño/arbol.png" onclick="respuestaIncorrecta(2)">
-                    <img class="imagen_3" src="img/navideño/santa.png" onclick="respuestaIncorrecta(2)">            
-                    <img class="imagen_4" src="img/navideño/trineo.png" onclick="respuestaIncorrecta(2)">
+                    <img class="imagen_2" src="img/navideño/arbol.png" onclick="incorrecto()">
+                    <img class="imagen_3" src="img/navideño/santa.png" onclick="incorrecto()">            
+                    <img class="imagen_4" src="img/navideño/trineo.png" onclick="incorrecto()">
                 </section>
                 
                 <section id="octava_pregunta" class="oculto">
                     <span id="texto_pregunta8" class="pregunta">¿Cuál no representa la realeza?</span>
-                    <img class="imagen_1" src="img/realeza/corona.png" onclick="respuestaIncorrecta(2)">
-                    <img class="imagen_2" src="img/realeza/castillo.png" onclick="respuestaIncorrecta(2)">
+                    <img class="imagen_1" src="img/realeza/corona.png" onclick="incorrecto()">
+                    <img class="imagen_2" src="img/realeza/castillo.png" onclick="incorrecto()">
                     <img class="imagen_3" src="img/realeza/bailarina.png" onclick="respuestaCorrecta(9)">            
-                    <img class="imagen_4" src="img/realeza/reina.png" onclick="respuestaIncorrecta(2)">
+                    <img class="imagen_4" src="img/realeza/reina.png" onclick="incorrecto()">
                 </section>
 
                 <section id="novena_pregunta" class="oculto">
                     <span id="texto_pregunta9" class="pregunta">¿Cuál no está relacionado con el universo?</span>
                     <img id="imagen_13" class="imagen_1" src="img/universo/arcoiris.png" onclick="respuestaCorrecta(10)">
-                    <img id="imagen_14" class="imagen_2" src="img/universo/luna.png" onclick="respuestaIncorrecta(2)">
-                    <img id="imagen_15" class="imagen_3" src="img/universo/planeta.png" onclick="respuestaIncorrecta(2)">            
-                    <img id="imagen_16" class="imagen_4" src="img/universo/sol.png" onclick="respuestaIncorrecta(2)">
+                    <img id="imagen_14" class="imagen_2" src="img/universo/luna.png" onclick="incorrecto()">
+                    <img id="imagen_15" class="imagen_3" src="img/universo/planeta.png" onclick="incorrecto()">            
+                    <img id="imagen_16" class="imagen_4" src="img/universo/sol.png" onclick="incorrecto()">
                 </section>
 
                 <section id="decima_pregunta" class="oculto">
                     <span id="texto_pregunta10" class="pregunta">¿Cuál no es un medio de transporte?</span>
-                    <img id="imagen_17" class="imagen_1" src="img/transportes/moto.png" onclick="respuestaIncorrecta(2)">
-                    <img id="imagen_18" class="imagen_2" src="img/transportes/bañera.png" onclick="respuestaCorrecta(2)">
-                    <img id="imagen_19" class="imagen_3" src="img/transportes/bici.png" onclick="respuestaIncorrecta(2)">            
-                    <img id="imagen_20" class="imagen_4" src="img/transportes/barco.png" onclick="respuestaIncorrecta(2)">
+                    <img id="imagen_17" class="imagen_1" src="img/transportes/moto.png" onclick="incorrecto()">
+                    <img id="imagen_18" class="imagen_2" src="img/transportes/bañera.png" onclick="ganador()">
+                    <img id="imagen_19" class="imagen_3" src="img/transportes/bici.png" onclick="incorrecto()">            
+                    <img id="imagen_20" class="imagen_4" src="img/transportes/barco.png" onclick="incorrecto()">
                 </section>
 
-=======
->>>>>>> 12aa776c24a2d97cc39e7e6960a4aafd0ec671bc
                 <section id="menu_stop" class="salir oculto">
                     <div id="fondo_menu">
                         <span id="pregunta_salir">¿Realmente quieres salir?</span>
@@ -150,6 +157,29 @@
                     </div>
                 </section>
 
+                <section id="incorrecta" class="opcion_incorrecta oculto">
+                    <div id="fondo_incorrecta">
+                        <span id="perdio">¡Perdiste! Tu puntuación fue de: </span>
+                        <span id="tuPuntuacion"></span>
+                        <button id="texto_incorrecta" class="boton" onclick="respuestaIncorrecta(2)">Aceptar</button>
+                    </div>
+                </section>
+
+                <section id="primeraIncorrecta" class="opcion_incorrecta_primera oculto">
+                    <div id="fondo_primeraIncorrecta">
+                        <span id="perdio_primera">¡Perdiste! Tu puntuación fue de : </span>
+                        <p id="primera_puntuacion">0 PUNTOS</p>
+                        <button id="texto_primeraIncorrecta" class="boton" onclick="respuestaIncorrecta(2)">Aceptar</button>
+                    </div>
+                </section>
+
+                <section id="ganaste" class="ganador oculto">
+                    <div id="fondo_ganar">
+                        <span id="gano">¡Felicidades! Ganaste</span>
+                        <button id="texto_ganador" class="boton" onclick="respuestaIncorrecta(2)">Regresar</button>
+                    </div>
+                </section>
+
             <div id="cronometro">
                 <span id="cuenta"></span>
             </div>
@@ -158,8 +188,9 @@
     </section>
     
     
-    <!-- Acá comienza la pantalla Instrucciones -->
+                                                                            <!-- Acá comienza la pantalla Instrucciones -->
     
+
     <section id="seccion_4" class="instrucciones oculto">
        
         <div id="parent_instrucciones">
@@ -184,8 +215,10 @@
         
     </section>
     
-    <!-- Acá comienza la pantalla Créditos -->
+
+                                                                            <!-- Acá comienza la pantalla Créditos -->
     
+
     <section id="seccion_5" class="creditos oculto">
         
         <div id="parent_creditos">
