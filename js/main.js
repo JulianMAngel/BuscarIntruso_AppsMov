@@ -66,12 +66,22 @@ function cambiarSplash(){
     secciones[1].className = "splash oculto";
     secciones[2].className = "inicio animated bounceInDown";
 }
-    
-function cambiarSeccion(id_seccion){
-    for (var i in secciones) {
-        secciones[i].classList.add("oculto");
-    }
-    secciones[id_seccion].classList.remove("oculto");
+
+function cambiarCreditos(){
+    secciones[2].className = "inicio oculto";
+    secciones[5].className = "creditos animated bounceInLeft";
+}
+
+function cambiarInstruccion(){
+    secciones[2].className = "inicio oculto";
+    secciones[4].className = "instrucciones animated bounceInLeft";
+}
+
+function cambiarInicio(){
+    secciones[3].className = "juego oculto";
+    secciones[4].className = "instrucciones oculto";
+    secciones[5].className = "creditos oculto";
+    secciones[2].className = "inicio animated bounceInRight delay-0.5s";
 }
 
 function comenzarJuego(){
@@ -83,7 +93,7 @@ function comenzarJuego(){
     secciones[8].className = "opcion_incorrecta oculto";
     secciones[9].className = "opcion_incorrecta_primera oculto";
     secciones[10].className = "ganador oculto";
-    secciones[3].className = "juego";
+    secciones[3].className = "juego animated bounceInLeft";
     preguntas[1].className = "pregunta1";
     preguntas[2].className = "pregunta2 oculto";
     preguntas[3].className = "pregunta3 oculto";
@@ -127,12 +137,10 @@ function tiempo(){
 
 /* Funciones para la interacción con las opciones */
 
-function respuestaIncorrecta(id_seccion){
-    for (var i in secciones) {
-        secciones[i].classList.add("oculto");
-    }
-    secciones[id_seccion].classList.remove("oculto");
-
+function regresar(){
+    secciones[3].className = "juego oculto";
+    secciones[2].className = "inicio animated bounceInRight delay-0.5s";
+    clearInterval(intervalo);
 }
 
 function respuestaCorrecta(id_pregunta){
@@ -171,7 +179,7 @@ function salida(){
 
 function regresar(){
     secciones[3].className = "juego oculto";
-    secciones[2].className = "inicio animated bounceInDown";
+    secciones[2].className = "inicio animated bounceInRight delay-0.5s";
     clearInterval(intervalo);
 }
 

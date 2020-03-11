@@ -34,9 +34,9 @@
             
             <input id="jugar_jugar" type="image" src="img/jugar.png" onclick="comenzarJuego()"></input>
             
-            <input id="instrucciones_inicio" type="image" src="img/comojugar.png" onclick="cambiarSeccion(4)"></input>
+            <input id="instrucciones_inicio" type="image" src="img/comojugar.png" onclick="cambiarInstruccion()"></input>
             
-            <input id="creditos_inicio" type="image" src="img/creditos.png" onclick="cambiarSeccion(5)"></input>
+            <input id="creditos_inicio" type="image" src="img/creditos.png" onclick="cambiarCreditos()"></input>
             
         </div>
     </section>
@@ -47,7 +47,7 @@
     
 
 
-    <section id="seccion_3" class="juego oculto animated bounceInLeft">
+    <section id="seccion_3" class="juego oculto">
         <div id="parent_juego">
            
             <div id="fondo_juego"></div>
@@ -161,7 +161,7 @@
                     <div id="fondo_incorrecta">
                         <span id="perdio">¡Perdiste! Tu puntuación fue de: </span>
                         <span id="tuPuntuacion"></span>
-                        <button id="texto_incorrecta" class="boton" onclick="respuestaIncorrecta(2)">Aceptar</button>
+                        <button id="texto_incorrecta" class="boton" onclick="regresar()">Aceptar</button>
                     </div>
                 </section>
 
@@ -169,14 +169,14 @@
                     <div id="fondo_primeraIncorrecta">
                         <span id="perdio_primera">¡Perdiste! Tu puntuación fue de : </span>
                         <p id="primera_puntuacion">0 PUNTOS</p>
-                        <button id="texto_primeraIncorrecta" class="boton" onclick="respuestaIncorrecta(2)">Aceptar</button>
+                        <button id="texto_primeraIncorrecta" class="boton" onclick="regresar()">Aceptar</button>
                     </div>
                 </section>
 
                 <section id="ganaste" class="ganador oculto">
                     <div id="fondo_ganar">
                         <span id="gano">¡Felicidades! Ganaste</span>
-                        <button id="texto_ganador" class="boton" onclick="respuestaIncorrecta(2)">Regresar</button>
+                        <button id="texto_ganador" class="boton" onclick="regresar()">Regresar</button>
                     </div>
                 </section>
 
@@ -191,13 +191,13 @@
                                                                             <!-- Acá comienza la pantalla Instrucciones -->
     
 
-    <section id="seccion_4" class="instrucciones oculto">
+    <section id="seccion_4" class="instrucciones oculto animated bounceInRight">
        
         <div id="parent_instrucciones">
            
             <div id="fondo_instrucciones"></div>
             
-            <input id="back_instrucciones" type="image" src="img/home.png"  onclick="cambiarSeccion(2)">
+            <input id="back_instrucciones" type="image" src="img/home.png"  onclick="cambiarInicio()">
             </input>
             
             <div id="instrucciones_instrucciones">
@@ -225,7 +225,7 @@
            
             <div id="fondo_creditos"></div>
             
-            <input id="back_creditos" type="image" src="img/home.png" onclick="cambiarSeccion(2)">
+            <input id="back_creditos" type="image" src="img/home.png" onclick="cambiarInicio()">
             </input>
             
             <img id="primera_persona" src="img/sofiamaya.png" alt="">
