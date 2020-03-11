@@ -11,13 +11,13 @@
 /* Primera pantalla */ 
 
 #splash{
-  height:"2498.92px";
-  width:"1184.73px";
+  height:851px;
+  width:393px;
 }
 
 #parent_splash{
     position: relative;
-    margin: 50px;
+    margin: 16.58px;
 }
 
 
@@ -28,39 +28,39 @@
 
 #parent_inicio{
     position: relative;
-    margin: 50px;
+    margin: 16.58px;
 }
 
 #fondo_inicio{
-    margin:20px;
-    width: 1184.73px;
-    height: 2498.92px;
+    margin:6.63px;
+    width: 393px;
+    height: 851px;
     background:#7C2C8A;
 }
 
 #jugar_jugar{
-    width: 800px;
-    height: 300px;
+    width: 265.37px;
+    height: 99.51px;
     position: absolute;
-    top:1000px;
-    left:210px;
+    top:331.72px;
+    left:69.66px;
 }
 
 
 #instrucciones_inicio{
-    width: 730px;
-    height: 150px;
+    width: 242.15px;
+    height: 49.75px;
     position: absolute;
-    top:1800px;
-    left:230px;
+    top:597.09px;
+    left:76.29px;
 }
 
 #creditos_inicio{
-    width: 700px;
-    height: 150px;
+    width: 232.20px;
+    height: 49.75px;
     position: absolute;
-    top:2100px;
-    left:260px;
+    top:696.61px;
+    left:86.24px;
     text-align: center;
 }
 
@@ -73,391 +73,390 @@
 
 #parent_juego{
     position: relative;
-    margin: 50px;
+    margin: 16.58px;
 }
 
 #fondo_juego{
-    margin:20px;
-    width: 1184.73px;
-    height: 2498.92px;
+    margin:6.63px;
+    width: 393px;
+    height: 851px;
     background: #7C2C8A;
 }
 
 #back_juego{
-    width: 200px;
-    height: 200px;
+    width: 66.34px;
+    height: 66.34px;
     position: absolute;
-    top:100px;
-    left:100px;
+    top:33.17px;
+    left:33.17px;
 }
 
 #puntaje{
-  width: 400px;
-  height: 100px;
+  width: 132.68px;
+  height: 33.17px;
   color: white;
   position: absolute;
-  top:120px;
-  left:400px;
+  top:39.80px;
+  left:132px;
   text-align: center;
-  font-size: 120px;
+  font-size: 39.80px;
   font-family: Bebas Neue;
 }
 
 #pausa{
-    width: 200px;
-    height: 200px;
+    width:66.34px;
+    height:66.34px;
     position: absolute;
-    top:100px;
-    left:900px;
+    top:33.17px;
+    left:298.54px;
     text-align: center;
 }
 
 #fondo_menu{
-  width: 1184.73px;
-  height: 800px;
+  width: 393px;
+  height: 265.37px;
   background: brown;
   position: relative;
-  bottom: 1600px;
-  left: 20px;
+  bottom: 530.75px;
+  left: 6.63px;
 }
 
 #pregunta_salir{
-    font-size: 80px;
+    font-size: 26.53px;
     font-family: Bebas Neue;
     position: relative;
-    top: 160px;
-    left: 240px;
+    top: 53.07px;
+    left: 79.61px;
 }
 
 .boton{
-  width: 400px;
-  height: 150px;
-  border-radius: 30px;
-  font-size: 70px;
+  width: 132.68px;
+  height: 49.75px;
+  border-radius: 9.95px;
+  font-size: 23.22px;
   font-family: Bebas Neue;
   position: relative;
 }
 
 #aceptar{
   background:red;
-  left: -600px;
-  top: 500px;
+  left: -199.03px;
+  top: 165.86px;
 
 }
 
 #fondo_pausa{
-  width: 1184.73px;
-  height: 500px;
+  width: 393px;
+  height: 165.86px;
   background: brown;
   position: relative;
-  bottom: 1600px;
-  left: 20px;
+  bottom: 530.75px;
+  left: 6.63px;
 }
 
 #cancelar{
   background: green;
-  left: 680px;
-  top: 350px;
+  left: 225.57px;
+  top: 116.10px;
 }
 
 #texto_continuar{
   background: lightcoral;
-  left: 400px;
-  top: 190px;
+  left: 132.68px;
+  top: 63.02px;
 }
 
 #fondo_incorrecta{
-  width: 1184.73px;
-  height: 500px;
+  width: 393px;
+  height: 165.86px;
   background: brown;
   position: relative;
-  bottom: 1600px;
-  left: 20px;
+  bottom: 530.75px;
+  left: 6.63px;
 }
 
 #perdio{
-  font-size: 90px;
+  font-size: 29.85px;
   font-family: Bebas Neue;
   color: white;
   position: relative;
-  left: 130px;
-    top: 30px;
+  left: 43.12px;
+  top: 9.95px;
 }
 
 #tuPuntuacion{
-  font-size: 70px;
+  font-size: 23.22px;
   font-family: Bebas Neue;
   color: white;
   position: relative;
-  left: -980px;
-  top: 30px;
+  left: -325.08px;
+  top: 9.95px;
 }
 
 #texto_incorrecta{
-  top: 220px;
-  left: 376px;
+  top: 72.97px;
+  left: 124.72px;
 }
 
 #fondo_primeraIncorrecta{
-  width: 1184.73px;
-  height: 500px;
+  width: 393px;
+  height: 165.86px;
   background: brown;
   position: relative;
-  bottom: 1600px;
-  left: 20px;
+  bottom: 530.75px;
+  left: 6.63px;
 }
 
 #perdio_primera{
-  font-size: 90px;
+  font-size: 29.85px;
   font-family: Bebas Neue;
   color: white;
   position: relative;
-  left: 120px;
-    top: 20px;
+  left: 39.80px;
+  top: 6.63px;
 }
 
 #primera_puntuacion{
-  font-size: 100px;
+  font-size: 33.17px;
   font-family: Bebas Neue;
   color: white;
   position: relative;
-  left: 450px;
-  top: -50px;
+  left: 149.27px;
+  top: -16.58px;
 }
 
 #texto_primeraIncorrecta{
-  top: -120px;
-  left: 390px;
+  top: -39.80px;
+  left: 129.37px;
 }
 
 #fondo_ganar{
-  width: 1184.73px;
-  height: 500px;
+  width: 393px;
+  height: 165.86px;
   background: brown;
   position: relative;
-  bottom: 1600px;
-  left: 20px;
+  bottom: 530.75px;
+  left: 6.63px;
 }
 
 #gano{
-  font-size: 110px;
+  font-size: 36.48px;
   font-family: Bebas Neue;
   color: white;
   position: relative;
-  left: 200px;
-    top: 100px;
+  left: 66.34px;
+  top: 33.17px;
 }
 
 #texto_ganador{
-  top: 270px;
-  left: -390px;
+  top: 50.56px;
+  left: 129.37px;
 }
 
 
 .pregunta{
   color: white;
   position: relative;
-  bottom: 1800px;
+  bottom: 597.09px;
   font-family: Bebas Neue;
-  font-size: 90px;
+  font-size: 29.85px;
 }
 
 #texto_pregunta1{
-  font-size: 90px;
-  left: 150px;
+  font-size: 29.85px;
+  left: 49.75px;
 }
 
 #texto_pregunta2{
-  font-size: 100px;
-    left: 130px;
+  font-size: 33.17px;
+  left: 43.12px;
 }
 
 #texto_pregunta3{
-  font-size: 80px;
-    left: 90px;
+  font-size: 26.53px;
+  left: 29.85px;
 }
 
 #texto_pregunta4{
-  font-size: 100px;
-    left: 150px;
+  font-size: 33.17px;
+  left: 49.75px;
 }
 
 #texto_pregunta5{
-    font-size: 100px;
-    left: 240px;
+  font-size: 33.17px;
+  left: 79.61px;
 }
 
 #texto_pregunta6{
-    font-size: 80px;
-    left: 60px;
+  font-size: 26.53px;
+  left: 19.90px;
 }
 
 #texto_pregunta7{
-    font-size: 100px;
-    left: 70px;
+  font-size: 33.17px;
+  left: 23.22px;
 }
 
 #texto_pregunta8{
-    font-size: 100px;
-    left: 70px;
+  font-size: 33.17px;
+  left: 23.22px;
 }
 
 #texto_pregunta9{
-    font-size: 80px;
-    left: 40px;
+  font-size: 26.53px;
+  left: 13.26px;
 }
 
 #texto_pregunta10{
-    font-size: 90px;
-    left: 70px;
+  font-size: 29.85px;
+  left: 23.22px;
 }
 
 
 .imagen_1{
-    width: 450px;
-    height: 450px;
+    width: 149.27px;
+    height: 149.27px;
     position: absolute;
-    top:1050px;
-    left:110px;
+    top:348.30px;
+    left:36.48px;
     text-align: center;
 }
 
 .imagen_2{
-    width: 450px;
-    height: 450px;
+    width: 149.27px;
+    height: 149.27px;
     position: absolute;
-    top:1050px;
-    left:660px;
+    top:348.30px;
+    left:218.93px;
     text-align: center;
 }
 
 .imagen_3{
-    width: 450px;
-    height: 450px;
+    width: 149.27px;
+    height: 149.27px;
     position: absolute;
-    top:1600px;
-    left:110px;
+    top:530.75px;
+    left:36.48px;
     text-align: center;
 }
 
 .imagen_4{
-    width: 450px;
-    height: 450px;
+    width: 149.27px;
+    height: 149.27px;
     position: absolute;
-    top:1600px;
-    left:660px;
+    top:530.75px;
+    left:218.93px;
     text-align: center;
 }
 
 #imagen_5{
-    width: 400px;
-    height: 400px;
+    width: 132.68px;
+    height: 132.68px;
 }
 
 #imagen_6{
-    width: 400px;
-    height: 400px;
+    width: 132.68px;
+    height: 132.68px;
 }
 
 #imagen_7{
-    width: 400px;
-    height: 400px;
+    width: 132.68px;
+    height: 132.68px;
 }
 
 #imagen_8{
-    width: 400px;
-    height: 400px;
+    width: 132.68px;
+    height: 132.68px;
 }
 
 #imagen_9{
-    width: 350px;
-    height: 350px;
-    left: 150px;
+    width: 116.10px;
+    height: 116.10px;
+    left: 49.75px;
 }
 
 #imagen_10{
-    width: 350px;
-    height: 350px;
-    left: 700px;
+    width: 116.10px;
+    height: 116.10px;
+    left: 232.20px;
 }
 
 #imagen_11{
-    width: 350px;
-    height: 350px;
-    left: 150px;
+    width: 116.10px;
+    height: 116.10px;
+    left: 49.75px;
 }
 
 #imagen_12{
-    width: 350px;
-    height: 350px;
-    left: 700px;
+    width: 116.10px;
+    height: 116.10px;
+    left: 232.20px;
 }
 
 #imagen_13{
-    width: 350px;
-    height: 350px;
-    left: 150px;
+    width: 116.10px;
+    height: 116.10px;
+    left: 49.75px;
 }
 
 #imagen_14{
-    width: 350px;
-    height: 350px;
-    left: 700px;
+    width: 116.10px;
+    height: 116.10px;
+    left: 232.20px;
 }
 
 #imagen_15{
-    width: 350px;
-    height: 350px;
-    left: 150px;
+    width: 116.10px;
+    height: 116.10px;
+    left: 49.75px;
 }
 
 #imagen_16{
-    width: 350px;
-    height: 350px;
-    left: 700px;
+    width: 116.10px;
+    height: 116.10px;
+    left: 232.20px;
 }
 
 #imagen_17{
-    width: 350px;
-    height: 350px;
-    left: 150px;
+    width: 116.10px;
+    height:116.10px;
+    left: 49.75px;
 }
 
 #imagen_18{
-    width: 350px;
-    height: 350px;
-    left: 700px;
+    width: 116.10px;
+    height:116.10px;
+    left: 232.20px;
 }
 
 #imagen_19{
-    width: 350px;
-    height: 350px;
-    left: 150px;
+    width: 116.10px;
+    height: 116.10px;
+    left: 49.75px;
 }
 
 #imagen_20{
-    width: 350px;
-    height: 350px;
-    left: 700px;
+    width: 116.10px;
+    height: 116.10px;
+    left: 232.20px;
 }
 
 #cronometro{
-    width: 400px;
-    height: 400px;
+    width: 132.68px;
+    height: 132.68px;
     position: absolute;
-    top:2100px;
-    left:420px;
+    top:696.61px;
+    left:139.32px;
     text-align: center;
-    font-size: 150px;
     font-family: Bebas Neue;
     color: #F9DA49;
 }
 
 #cuenta{
     font-family: Bebas Neue;
-    font-size: 120px;
+    font-size: 39.80px;
     position: relative;
-    top:50px;
+    top:16.58px;
 }
 
 
@@ -468,71 +467,70 @@
 
 #parent_instrucciones{
     position: relative;
-    margin: 50px;
+    margin: 16.58px;
 }
 
 #fondo_instrucciones{
-    margin:20px;
-    width: 1184.73px;
-    height: 2498.92px;
+    margin:6.63px;
+    width: 393px;
+    height: 851px;
     background: #7C2C8A;
 }
 
 #back_instrucciones{
-    width: 200px;
-    height: 200px;
+    width: 66.34px;
+    height: 66.34px;
     position: absolute;
-    top:100px;
-    left:100px;
+    top:33.17px;
+    left:33.17px;
     text-align: center;
 }
 
-
 #instrucciones_instrucciones{
   background: rgb(249, 218, 73);
-  width: 600px;
-  height: 100px;
+  width: 199.03px;
+  height: 33.17px;
   color: white;
   position: absolute;
-  top:350px;
-  left:310px;
+  top:116.10px;
+  left:102.83px;
   font-family: Bebas Neue;
   text-align: center;
-    border-radius: 30px;
+  border-radius: 9.95px;
 }
 
 #texto_instrucciones{
     position: relative;
-    top: 7px;
+    top: 2.32px;
     color: rgb(221,68,69);
-    font-size: 80px;
+    font-size: 26.53px;
 }
 
 #texto_instrucciones_largo{
 background: rgb(163,104,224);
-  width: 1000px;
-  height: 1200px;
+  width: 331.72px;
+  height: 398.06px;
   color: white;
   position: absolute;
-  top:700px;
-  left:110px;
+  top:232.20px;
+  left:36.48px;
   font-family: Bebas Neue;
   text-align: center;
-    border-radius: 50px;
+    border-radius: 16.58px;
 }
 
 #texto_instrucciones_largo_largo{
-    font-size: 110px;
+    font-size: 36.48px;
     position: relative;
-    top:90px;
+    top:29.85px;
 }
 
 #jugar_instrucciones{
-    width: 500px;
-    height: 200px;
+    width: 165.86px;
+    height: 66.34px;
     position: absolute;
-    top:2050px;
-    left:350px;
+    top:680.02px;
+    left:116.10px;
     text-align: center;
 }
 
@@ -543,113 +541,107 @@ background: rgb(163,104,224);
 
 #parent_creditos{
     position: relative;
-    margin: 50px;
+    margin: 16.58px;
 }
 
 #fondo_creditos{
-    margin:20px;
-    width: 1184.73px;
-    height: 2498.92px;
+    margin:6.63px;
+    width: 393px;
+    height: 851px;
     background:#7C2C8A;
 }
 
 #back_creditos{
-    width: 200px;
-    height: 200px;
+    width: 66.34px;
+    height: 66.34px;
     position: absolute;
-    top:100px;
-    left:100px;
+    top:33.17px;
+    left:33.17px;
     text-align: center;
 }
 
 
 #primera_persona{
-    width: 450px;
-    height: 450px;
+    width: 149.27px;
+    height: 149.27px;
     position: absolute;
-    top:550px;
-    left:50px;
-    text-align: center;
-    border-radius:350px;
+    top:182.44px;
+    left:16.58px;
 }
 
 #descripcion_primera{
-  width: 500px;
-  height: 400px;
+  width: 165.86px;
+  height: 132.68px;
   color: white;
   position: absolute;
-  top: 550px;
-  left: 600px;
+  top: 182.44px;
+  left: 199.03px;
   font-family: Bebas Neue;
   text-align: center;
 }
 
 #texto_descripcion_primera{
-    font-size: 80px;
+    font-size: 26.53px;
     position: relative;
-    top: 20px;
+    top: 6.63px;
 }
 
 #segunda_persona{
-    width: 350px;
-    height: 350px;
+    width: 116.10px;
+    height: 116.10px;
     position: absolute;
-    top:1100px;
-    left:110px;
-    text-align: center;
-    border-radius:350px;
+    top:364.89px;
+    left:36.48px;
 }
 
 #descripcion_segunda{
-  width: 500px;
-  height: 400px;
+  width: 165.86px;
+  height: 132.68px;
   color: white;
   position: absolute;
-  top: 1130px;
-  left: 600px;
+  top: 374.84px;
+  left: 199.03px;
   font-family: Bebas Neue;
   text-align: center;
 }
 
 #texto_descripcion_segunda{
-    font-size: 80px;
+    font-size: 26.53px;
     position: relative;
-    top: 20px;
+    top: 6.63px;
 }
 
 #tercera_persona{
-    width: 350px;
-    height: 350px;
+    width: 116.10px;
+    height: 116.10px;
     position: absolute;
-    top:1600px;
-    left:110px;
-    text-align: center;
-    border-radius:350px;
+    top:530.75px;
+    left:36.48px;
 }
 
 #descripcion_tercera{
-  width: 500px;
-  height: 400px;
+  width: 165.86px;
+  height: 132.68px;
   color: white;
   position: absolute;
-  top: 1630px;
-  left: 600px;
+  top: 540.70px;
+  left: 199.03px;
   font-family: Bebas Neue;
   text-align: center;
 }
 
 #texto_descripcion_tercera{
-    font-size: 80px;
+    font-size: 26.53px;
     position: relative;
-    top: 20px;
+    top: 6.63px;
 }
 
 #jugar_creditos{
-    width: 500px;
-    height: 200px;
+    width: 165.86px;
+    height: 66.34px;
     position: absolute;
-    top:2100px;
-    left:350px;
+    top:696.61px;
+    left:116.10px;
     text-align: center;
 }
 
