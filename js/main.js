@@ -12,6 +12,7 @@ var continuar;
 var incorrecta;
 var primer_incorrecta;
 var ganar;
+var ventana_negra;
 
 var contador_puntaje = 0;
 var contador_tiempo;
@@ -37,6 +38,7 @@ function inicializarReferencias(){
     secciones[8] = document.getElementById("incorrecta");
     secciones[9] = document.getElementById("primeraIncorrecta");
     secciones[10] = document.getElementById("ganaste");
+    secciones[11] = document.getElementById("ventana_transparencia");
     preguntas[1] = document.getElementById("primera_pregunta");
     preguntas[2] = document.getElementById("segunda_pregunta");
     preguntas[3] = document.getElementById("tercera_pregunta");
@@ -56,6 +58,7 @@ function inicializarReferencias(){
     incorrecta = document.getElementById("incorrecta");
     primer_incorrecta = document.getElementById("primeraIncorrecta");
     ganar = document.getElementById("ganaste");
+    ventana_negra = document.getElementById("ventana_transparencia");
 }
 
 
@@ -93,6 +96,7 @@ function comenzarJuego(){
     secciones[8].className = "opcion_incorrecta oculto";
     secciones[9].className = "opcion_incorrecta_primera oculto";
     secciones[10].className = "ganador oculto";
+    secciones[11].className = "negro oculto";
     secciones[3].className = "juego animated bounceInLeft";
     preguntas[1].className = "pregunta1";
     preguntas[2].className = "pregunta2 oculto";
@@ -166,12 +170,14 @@ function reset(){
 }
 
 function pausar(){
+    secciones[11].className = "negro";
     continuar.className = "despausar";
     clearInterval(intervalo);
     secciones[6].className = "pausa oculto";
 }
 
 function salida(){
+    secciones[11].className = "negro";
     salir.className = "salir";
     clearInterval(intervalo);
     secciones[7].className = "continuar oculto";
@@ -186,6 +192,7 @@ function regresar(){
 function cancelar(){
     secciones[6].className = "pausa oculto";
     secciones[7].className = "continuar oculto";
+    secciones[11].className = "ventana_transparencia oculto";
 
     if(intervalo){
         clearInterval(intervalo);
@@ -195,6 +202,7 @@ function cancelar(){
 }
 
 function incorrecto(){
+    secciones[11].className = "negro";
     document.getElementById("tuPuntuacion").appendChild(puntuacion_final);
     incorrecta.className = "opcion_incorrecta";
     
@@ -202,12 +210,14 @@ function incorrecto(){
 }
 
 function primera_incorrecta(){
+    secciones[11].className = "negro";
     primer_incorrecta.className = "opcion_incorrecta_primera";
 
     clearInterval(intervalo);
 }
 
 function ganador(){
+    secciones[11].className = "negro";
     contador_puntaje.innerHTML = "100 PUNTOS";
     ganar.className = "ganador";
 
