@@ -3,8 +3,12 @@
   src: url(BebasNeue-Regular.woff);
 }
 
-*{
+body{
+  margin: 0px;
+    padding: 0px;
+    border: 0px;
     overflow: hidden;
+
 }
 
 .oculto{
@@ -17,10 +21,14 @@
 #splash{
   height:851px;
   width:393px;
+    position: relative;
+    background: rgb(142,50,145);
 }
 
 #parent_splash{
     position: relative;
+    height:851px;
+  width:393px;
 }
 
 
@@ -31,11 +39,9 @@
 
 #parent_inicio{
     position: relative;
-    margin: 16.58px;
-}
+  }
 
 #fondo_inicio{
-    margin:6.63px;
     width: 393px;
     height: 851px;
     background:#7C2C8A;
@@ -72,28 +78,24 @@
 /* Tercera pantalla */ 
 
 
-
-
 #parent_juego{
     position: relative;
-    margin: 16.58px;
 }
 
 #fondo_juego{
-    margin:6.63px;
+
     width: 393px;
     height: 851px;
     background: #7C2C8A;
 }
 
-#transparencia{
-  margin:6.63px;
+#ventana_transparencia{
     width: 393px;
-    height: 851px;
+    height: 950px;
     background: black;
     opacity: 0.3;
     position: relative;
-    bottom: 900px;
+    bottom: 950px;
 }
 
 #back_juego{
@@ -101,16 +103,16 @@
     height: 66.34px;
     position: absolute;
     top:33.17px;
-    left:33.17px;
+    left:26.54px;
 }
 
 #puntaje{
-  width: 132.68px;
+  width: 140px;
   height: 33.17px;
   color: white;
   position: absolute;
   top:39.80px;
-  left:132px;
+  left:122px;
   text-align: center;
   font-size: 39.80px;
   font-family: Bebas Neue;
@@ -121,7 +123,7 @@
     height:66.34px;
     position: absolute;
     top:33.17px;
-    left:298.54px;
+    left:291.91px;
     text-align: center;
 }
 
@@ -130,8 +132,7 @@
   height: 165.86px;
   background: brown;
   position: relative;
-  bottom: 1380px;
-  left: 6.63px;
+  bottom: 1480px;
 }
 
 #pregunta_salir{
@@ -171,8 +172,7 @@
   height: 165.86px;
   background: brown;
   position: relative;
-  bottom: 1380px;
-  left: 6.63px;
+  bottom: 1480px;
 }
 
 #cancelar{
@@ -197,8 +197,7 @@
   height: 165.86px;
   background: brown;
   position: relative;
-  bottom: 1380px;
-  left: 6.63px;
+  bottom: 1480px;
 }
 
 #perdio{
@@ -221,7 +220,7 @@
 
 #texto_incorrecta{
   top: 72.97px;
-  left: 124.72px;
+  left: 114.72px;
 }
 
 #fondo_primeraIncorrecta{
@@ -229,8 +228,8 @@
   height: 165.86px;
   background: brown;
   position: relative;
-  bottom: 1380px;
-  left: 6.63px;
+  bottom: 1480px;
+
 }
 
 #perdio_primera{
@@ -261,8 +260,7 @@
   height: 165.86px;
   background: brown;
   position: relative;
-  bottom: 1380px;
-  left: 6.63px;
+  bottom: 1490px;
 }
 
 #gano{
@@ -289,53 +287,79 @@
 }
 
 #texto_pregunta1{
-  font-size: 29.85px;
-  left: 49.75px;
+  font-size: 32px;
+    position: relative;
+  left: 30px;
+    bottom: 630px;
+     width: 350px;
+
 }
 
 #texto_pregunta2{
   font-size: 33.17px;
-  left: 43.12px;
+    position: relative;
+  left: 36.49px;
+    bottom: 600px;
+     width: 350px;
 }
 
 #texto_pregunta3{
-  font-size: 26.53px;
-  left: 29.85px;
+    text-align: center;
+  font-size: 29.85px;
+    width: 350px;
+  left: 20px;
+    bottom: 640px;
 }
 
 #texto_pregunta4{
   font-size: 33.17px;
-  left: 49.75px;
+  left: 43.12px;
+     width: 350px;
+    bottom: 620px;
 }
 
 #texto_pregunta5{
   font-size: 33.17px;
-  left: 79.61px;
+  left: 72.98px;
+     width: 350px;
+    bottom: 620px;
 }
 
 #texto_pregunta6{
-  font-size: 26.53px;
-  left: 19.90px;
+    text-align: center;
+  width: 350px;
+  left: 20px;
+    bottom: 650px;
 }
 
 #texto_pregunta7{
-  font-size: 33.17px;
-  left: 23.22px;
+    width: 350px;
+  font-size: 30px;
+  left: 32.59px;
 }
 
 #texto_pregunta8{
+    text-align: center;
+    width: 350px;
   font-size: 33.17px;
-  left: 23.22px;
+  left: 16.59px;
+    bottom: 640px;
 }
 
 #texto_pregunta9{
-  font-size: 26.53px;
-  left: 13.26px;
+    width: 350px;
+    text-align: center;
+  font-size: 30.53px;
+  left: 19.63px;
+    bottom: 640px;
 }
 
 #texto_pregunta10{
   font-size: 29.85px;
-  left: 23.22px;
+  left: 16.59px;
+    width: 350px;
+    text-align: center;
+    bottom: 640px;
 }
 
 
@@ -493,11 +517,9 @@
 
 #parent_instrucciones{
     position: relative;
-    margin: 16.58px;
 }
 
 #fondo_instrucciones{
-    margin:6.63px;
     width: 393px;
     height: 851px;
     background: #7C2C8A;
@@ -518,8 +540,8 @@
   height: 33.17px;
   color: white;
   position: absolute;
-  top:116.10px;
-  left:102.83px;
+  top:135.10px;
+  left:97.83px;
   font-family: Bebas Neue;
   text-align: center;
   border-radius: 9.95px;
@@ -534,12 +556,12 @@
 
 #texto_instrucciones_largo{
 background: rgb(163,104,224);
-  width: 331.72px;
+  width: 320.72px;
   height: 398.06px;
   color: white;
   position: absolute;
   top:232.20px;
-  left:36.48px;
+  left:28.48px;
   font-family: Bebas Neue;
   text-align: center;
     border-radius: 16.58px;
@@ -567,11 +589,9 @@ background: rgb(163,104,224);
 
 #parent_creditos{
     position: relative;
-    margin: 16.58px;
 }
 
 #fondo_creditos{
-    margin:6.63px;
     width: 393px;
     height: 851px;
     background:#7C2C8A;
