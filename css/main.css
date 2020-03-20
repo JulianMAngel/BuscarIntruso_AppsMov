@@ -305,9 +305,8 @@ body{
 
 #texto_pregunta3{
     text-align: center;
-  font-size: 29.85px;
-    width: 350px;
-  left: 20px;
+  font-size: 25.85px;
+  left: 25px;
     bottom: 640px;
 }
 
@@ -330,33 +329,35 @@ body{
   width: 350px;
   left: 20px;
     bottom: 650px;
+    font-size: 25px;
 }
 
 #texto_pregunta7{
     width: 350px;
   font-size: 30px;
   left: 32.59px;
+    bottom: 620px;
 }
 
 #texto_pregunta8{
     text-align: center;
     width: 350px;
-  font-size: 33.17px;
-  left: 16.59px;
+  font-size: 30.17px;
+  left: 27.59px;
     bottom: 640px;
 }
 
 #texto_pregunta9{
     width: 350px;
     text-align: center;
-  font-size: 30.53px;
+  font-size: 24.53px;
   left: 19.63px;
     bottom: 640px;
 }
 
 #texto_pregunta10{
-  font-size: 29.85px;
-  left: 16.59px;
+  font-size: 27.85px;
+  left: 25.59px;
     width: 350px;
     text-align: center;
     bottom: 640px;
