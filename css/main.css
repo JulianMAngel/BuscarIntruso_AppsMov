@@ -3,6 +3,10 @@
   src: url(BebasNeue-Regular.woff);
 }
 
+*{
+    overflow: hidden;
+}
+
 .oculto{
     display: none;
 }
@@ -17,7 +21,6 @@
 
 #parent_splash{
     position: relative;
-    margin: 16.58px;
 }
 
 
@@ -83,6 +86,16 @@
     background: #7C2C8A;
 }
 
+#transparencia{
+  margin:6.63px;
+    width: 393px;
+    height: 851px;
+    background: black;
+    opacity: 0.3;
+    position: relative;
+    bottom: 900px;
+}
+
 #back_juego{
     width: 66.34px;
     height: 66.34px;
@@ -114,10 +127,10 @@
 
 #fondo_menu{
   width: 393px;
-  height: 305.37px;
+  height: 165.86px;
   background: brown;
   position: relative;
-  bottom: 530.75px;
+  bottom: 1380px;
   left: 6.63px;
 }
 
@@ -125,7 +138,7 @@
     font-size: 26.53px;
     font-family: Bebas Neue;
     position: relative;
-    top: 53.07px;
+    top: 20px;
     left: 79.61px;
     color: white;
 }
@@ -140,6 +153,13 @@
 }
 
 #aceptar{
+  background:green;
+  left: -200.03px;
+  top: 100px;
+  color: white;
+}
+
+#texto_continuar{
   background:red;
   left: -200.03px;
   top: 185.86px;
@@ -148,27 +168,27 @@
 
 #fondo_pausa{
   width: 393px;
-  height: 305.86px;
+  height: 165.86px;
   background: brown;
   position: relative;
-  bottom: 530.75px;
+  bottom: 1380px;
   left: 6.63px;
 }
 
 #cancelar{
-  background: green;
+  background: red;
   left: 215.57px;
-  top: 136.10px;
+  top: 50px;
   color: white;
 }
 
 #texto_continuar{
-  background: lightcoral;
-  left: 72.68px;
-  top: 103.02px;
-  width: 250px;
-  height: 90px;
-  font-size: 40px;
+  background: green;
+  left: 115px;
+  top: 55px;
+  width: 170px;
+  height: 60px;
+  font-size: 30px;
   color: white;
 }
 
@@ -177,7 +197,7 @@
   height: 165.86px;
   background: brown;
   position: relative;
-  bottom: 530.75px;
+  bottom: 1380px;
   left: 6.63px;
 }
 
@@ -209,7 +229,7 @@
   height: 165.86px;
   background: brown;
   position: relative;
-  bottom: 530.75px;
+  bottom: 1380px;
   left: 6.63px;
 }
 
@@ -241,7 +261,7 @@
   height: 165.86px;
   background: brown;
   position: relative;
-  bottom: 530.75px;
+  bottom: 1380px;
   left: 6.63px;
 }
 
